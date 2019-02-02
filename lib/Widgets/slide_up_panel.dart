@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class SlideUpPanel extends StatefulWidget{
   @override
-  State createState() => new SlideUpPanelState();
+  State createState() => new _SlideUpPanelState();
 }
 
-class SlideUpPanelState extends State<SlideUpPanel>{
+class _SlideUpPanelState extends State<SlideUpPanel>{
   
   double _height;
   bool _isOpen;
@@ -26,6 +26,16 @@ class SlideUpPanelState extends State<SlideUpPanel>{
         children: <Widget>[
           new GestureDetector(
             child: new Container(
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Text("Name of the place", textAlign: TextAlign.center),
+                  ),
+                  Expanded(
+                    child: Text("Some info" , textAlign: TextAlign.center),
+                  ),
+                ],
+              ),
               height: 100.0,
               color: Colors.white,
             ),
@@ -70,6 +80,36 @@ class SlideUpPanelState extends State<SlideUpPanel>{
                 _isOpen=!_isOpen;
               }); 
           }),
+          Row(
+              children: <Widget>[
+                Expanded( 
+                   child: Padding(
+                     padding: EdgeInsets.symmetric(vertical: 20.0),
+                     child:  Text("Test" , textAlign: TextAlign.left,),
+                   ),
+                )
+              ],
+            ),
+          Row(
+              children: <Widget>[
+                Expanded(
+                   child: Padding(
+                     padding: EdgeInsets.symmetric(vertical: 20.0),
+                     child:  Text("Test1" , textAlign: TextAlign.left,),
+                   ),
+                )
+              ],
+            ),
+          Row(
+              children: <Widget>[
+                Expanded(
+                   child: Padding(
+                     padding: EdgeInsets.symmetric(vertical: 20.0),
+                     child:  Text("Test2" , textAlign: TextAlign.left,),
+                   ),
+                )
+              ],
+            ),    
         ],
       )
     );

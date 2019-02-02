@@ -15,8 +15,7 @@ class MapPageState extends State<MapPage>{
       alignment: AlignmentDirectional.bottomCenter,
       children: <Widget>[
         new MapWidget(),
-        new SlideUpPanel(
-        ), 
+        new SlideUpPanel(), 
       ],
     );
   }
