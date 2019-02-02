@@ -1,24 +1,39 @@
 import 'package:flutter/material.dart';
 
-class SlideUpPanel extends StatefulWidget{
+class SlideUpPanel extends StatefulWidget {
   @override
   State createState() => new SlideUpPanelState();
 }
 
-class SlideUpPanelState extends State<SlideUpPanel>{
-  
+class SlideUpPanelState extends State<SlideUpPanel> {
+  double _heightOpen = 300;
+  double _heightClosed = 100;
+
+  double _midPoint;
   double _height;
   bool _isOpen;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
-    _height = 100.0;
+
+    _height = _heightClosed;
     _isOpen = false;
   }
 
   @override
-  Widget build (BuildContext context){
+  Widget build (BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
+
+    if (MediaQuery.of(context).orientation == Orientation.portrait) {
+      _heightOpen = screenHeight * 0.5;
+    }
+    else {
+      _heightOpen = screenHeight - 100;
+    }
+
+    _midPoint = (_heightOpen + _heightClosed) / 2;
+
     return new Container(
       height: _height,
       color: Colors.green,
@@ -26,52 +41,38 @@ class SlideUpPanelState extends State<SlideUpPanel>{
         children: <Widget>[
           new GestureDetector(
             child: new Container(
-              height: 100.0,
+              height: _heightClosed,
               color: Colors.white,
             ),
             onVerticalDragEnd: (details) {
-              
-              double _newHeight;
-              
-              if(_height >= 200.0){
-                _newHeight = 300.0;
-                _isOpen = true;
-              }else{
-                _newHeight = 100.0;
-                _isOpen = false;
-              }
-              setState((){
-                _height = _newHeight;
-              });
+              setPanelState(_height >= _midPoint);
             },
             onVerticalDragUpdate: (details) {
+              double newHeight = _height - details.delta.dy;
               
-              double _newHeight;
-              double _dy = details.delta.dy;
-              
-              if(_height - _dy < 300.0 && _height - _dy > 100.0){
-                _newHeight = _height - _dy;
-              }else if (_height - _dy >= 300.0)
-              {
-                _newHeight = 300;
-                _isOpen = true;
-              }else if(_height - _dy <= 100.0)
-              {
-                _newHeight = 100.0;
-                _isOpen = false;    
+              if (newHeight < _heightOpen && newHeight > _heightClosed) {
+                setState(() {
+                  _height = newHeight;
+                });
               }
-              setState((){
-                _height = _newHeight;
-              });
+              else
+              {
+                setPanelState(newHeight >= _heightOpen);
+              }
             } ,
             onTap: () {
-              setState( () {
-                _height = _isOpen ? 100.0 : 300.0;
-                _isOpen=!_isOpen;
-              }); 
-          }),
+              setPanelState(!_isOpen);
+            }
+          ),
         ],
       )
     );
+  }
+
+  void setPanelState(isOpen) {
+    setState(() {
+      _height = isOpen ? _heightOpen : _heightClosed;
+    });
+    _isOpen = isOpen;
   }
 }
