@@ -10,28 +10,28 @@ class MapWidget extends StatefulWidget{
 class MapWidgetState extends State<MapWidget>{
   
   GoogleMapController mapController;
-  static final LatLng center = const LatLng(32.7266, 74.8570);
-  
+  static final CameraPosition _defaultCameraPosition = const CameraPosition(
+    target: LatLng(47.180086, 19.503736),
+    zoom: 7,
+  );
+
   @override
   Widget build(BuildContext context) {
     return GoogleMap(
-          onMapCreated: (controller) {
-            mapController = controller;
-          },
-          options: GoogleMapOptions(
-            scrollGesturesEnabled: true,
-            tiltGesturesEnabled: false,
-            rotateGesturesEnabled: false,
-            myLocationEnabled: true,
-            compassEnabled: false,
-            mapType: MapType.normal,
-            trackCameraPosition: true,
-            zoomGesturesEnabled: true,
-            cameraPosition: const CameraPosition(
-              target: LatLng(-33.852, 151.211),
-              zoom: 11.0,
-            ),
-          ),
-        );
+      onMapCreated: (controller) {
+        mapController = controller;
+      },
+      options: GoogleMapOptions(
+        scrollGesturesEnabled: true,
+        tiltGesturesEnabled: false,
+        rotateGesturesEnabled: false,
+        myLocationEnabled: true,
+        compassEnabled: false,
+        mapType: MapType.normal,
+        trackCameraPosition: true,
+        zoomGesturesEnabled: true,
+        cameraPosition: _defaultCameraPosition,
+      ),
+    );
   }
 }
