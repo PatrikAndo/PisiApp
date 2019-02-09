@@ -6,32 +6,52 @@ class SlideUpPanel extends StatefulWidget {
   String _title;
   int _stars;
 
-  SlideUpPanel(this._title, this._description , this._stars);
+  SlideUpPanel(this._title, this._description, this._stars);
 
   @override
-  State createState() => new _SlideUpPanelState(_title, _description , _stars);
+  State createState() => new _SlideUpPanelState(_title, _description, _stars);
 }
 
 class _SlideUpPanelState extends State<SlideUpPanel> {
   double _height;
   bool _isOpen;
+  double _midPoint;
+
+  double _heightOpen = 300;
+  double _heightClosed = 100;
 
   String _description;
   String _title;
   int _starts;
 
-
-  _SlideUpPanelState(this._title , this._description, this._starts);
+  _SlideUpPanelState(this._title, this._description, this._starts);
 
   @override
   void initState() {
     super.initState();
-    _height = 80.0;
+    _height = _heightClosed;
     _isOpen = false;
+  }
+
+  void setPanelState(isOpen) {
+    setState(() {
+      _height = isOpen ? _heightOpen : _heightClosed;
+    });
+    _isOpen = isOpen;
   }
 
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
+
+    if (MediaQuery.of(context).orientation == Orientation.portrait) {
+      _heightOpen = screenHeight * 0.5;
+    } else {
+      _heightOpen = screenHeight - 100;
+    }
+
+    _midPoint = (_heightOpen + _heightClosed) / 2;
+
     return new Container(
         height: _height,
         color: Colors.white,
@@ -39,7 +59,7 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
           children: <Widget>[
             new GestureDetector(
                 child: new Container(
-                    height: 80.0,
+                    height: _heightClosed,
                     decoration: BoxDecoration(
                         color: Colors.white,
                         border: Border(
@@ -101,41 +121,20 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                       ],
                     )),
                 onVerticalDragEnd: (details) {
-                  double _newHeight;
-
-                  if (_height >= 200.0) {
-                    _newHeight = 300.0;
-                    _isOpen = true;
-                  } else {
-                    _newHeight = 80.0;
-                    _isOpen = false;
-                  }
-                  setState(() {
-                    _height = _newHeight;
-                  });
+                  setPanelState(_height >= _midPoint);
                 },
                 onVerticalDragUpdate: (details) {
-                  double _newHeight;
-                  double _dy = details.delta.dy;
-
-                  if (_height - _dy < 300.0 && _height - _dy > 80.0) {
-                    _newHeight = _height - _dy;
-                  } else if (_height - _dy >= 300.0) {
-                    _newHeight = 300;
-                    _isOpen = true;
-                  } else if (_height - _dy <= 80.0) {
-                    _newHeight = 80.0;
-                    _isOpen = false;
+                  double newHeight = _height - details.delta.dy;
+                  if (newHeight < _heightOpen && newHeight > _heightClosed) {
+                    setState(() {
+                      _height = newHeight;
+                    });
+                  } else {
+                    setPanelState(newHeight >= _heightOpen);
                   }
-                  setState(() {
-                    _height = _newHeight;
-                  });
                 },
                 onTap: () {
-                  setState(() {
-                    _height = _isOpen ? 80.0 : 300.0;
-                    _isOpen = !_isOpen;
-                  });
+                  setPanelState(!_isOpen);
                 }),
             Row(
               children: <Widget>[

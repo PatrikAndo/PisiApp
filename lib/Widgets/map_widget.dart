@@ -9,7 +9,11 @@ class MapWidget extends StatefulWidget {
 
 class _MapWidgetState extends State<MapWidget> {
   GoogleMapController mapController;
-  static final LatLng center = const LatLng(47.482289, 19.006642);
+  
+  static final CameraPosition _defaultPosition = const CameraPosition(
+          target: LatLng(47.180086, 19.503736),
+          zoom: 6.0,
+        );
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +30,7 @@ class _MapWidgetState extends State<MapWidget> {
         mapType: MapType.normal,
         trackCameraPosition: true,
         zoomGesturesEnabled: true,
-        cameraPosition: const CameraPosition(
-          target: LatLng(47.482289, 19.006642),
-          zoom: 6.0,
-        ),
+        cameraPosition: _defaultPosition,
       ),
     );
   }
