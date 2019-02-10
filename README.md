@@ -1,15 +1,16 @@
-# pisi_app
+# PisiApp
 
-A new Flutter project.
+## Dependencies
 
-## Getting Started
+- [google_maps_flutter](https://pub.dartlang.org/packages/google_maps_flutter)
 
-This project is a starting point for a Flutter application.
+## How to open directions in Google Maps
 
-A few resources to get you started if this is your first Flutter project:
+- [Open Google Maps app if available with flutter](https://stackoverflow.com/questions/47046637/open-google-maps-app-if-available-with-flutter) - this works on both Android and iOS
+- [url_launcher](https://pub.dartlang.org/packages/url_launcher)
+- [android_intent](https://pub.dartlang.org/packages/android_intent)
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## Flutter docs
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
