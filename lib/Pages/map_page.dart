@@ -14,7 +14,7 @@ class MapPage extends StatefulWidget {
 
 class MapPageState extends State<MapPage> {
 
-  Record rTest = new Record("ghvjhjvgj", "description", 5, 55.5,4.54);
+  Record rTest = new Record("ghvjhjvgj", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley", 5, 55.5,4.54);
 
   @override
   Widget build(BuildContext context) {

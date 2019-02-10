@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pisi_app/Utilities/Record.dart';
+import 'package:smooth_star_rating/smooth_star_rating.dart';
 
 class SlideUpPanel extends StatefulWidget {
   String _description;
@@ -13,19 +13,26 @@ class SlideUpPanel extends StatefulWidget {
 }
 
 class _SlideUpPanelState extends State<SlideUpPanel> {
+  
+  //Widget's own variables
   double _height;
   bool _isOpen;
   double _midPoint;
-
   double _heightOpen = 300;
   double _heightClosed = 100;
 
+  //Passing data with constructor
   String _description;
   String _title;
-  int _starts;
+  int _stars;
 
-  _SlideUpPanelState(this._title, this._description, this._starts);
+  //Staring widget
+  double _inputRating = 0.0;
 
+  //Ctor
+  _SlideUpPanelState(this._title, this._description, this._stars);
+
+  //Methods
   @override
   void initState() {
     super.initState();
@@ -142,7 +149,7 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                   child: Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+                      this._description,
                       textAlign: TextAlign.start,
                     ),
                   ),
@@ -165,34 +172,25 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        Icon(
-                          Icons.star_half,
+                        SmoothStarRating(
+                          allowHalfRating: false,
+                          onRatingChanged: (v) {
+                            _inputRating = v;
+                            setState(() {});
+                          },
+                          starCount: 5,
+                          rating: _inputRating,
                           size: 40.0,
-                          color: Colors.yellow,
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 40.0,
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 40.0,
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 40.0,
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 40.0,
-                        ),
+                          color: Colors.green,
+                          borderColor: Colors.green,
+                        )
                       ],
                     ),
                   ),
                 ],
               ),
             ),
-            Row(),
+            Row(), // Place for opening hours
           ],
         ));
   }
