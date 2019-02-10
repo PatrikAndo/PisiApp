@@ -60,138 +60,136 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
     _midPoint = (_heightOpen + _heightClosed) / 2;
 
     return new Container(
-        height: _height,
-        color: Colors.white,
-        child: new Column(
-          children: <Widget>[
-            new GestureDetector(
-                child: new Container(
-                    height: _heightClosed,
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        border: Border(
-                            bottom:
-                                BorderSide(width: 1.0, color: Colors.grey))),
-                    child: Row(
+      height: _height,
+      color: Colors.white,
+      child: new Column(
+        children: <Widget>[
+          new GestureDetector(
+            child: new Container(
+              height: _heightClosed,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border(
+                  bottom: BorderSide(width: 1.0, color: Colors.grey)
+                )
+              ),
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.stretch,
-                            children: <Widget>[
-                              Expanded(
-                                child: Padding(
-                                  padding:
-                                      EdgeInsets.only(top: 20.0, left: 20.0),
-                                  child: Text(
-                                    _title,
-                                    textAlign: TextAlign.left,
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 15.0),
-                                  ),
-                                ),
+                          child: Padding(
+                            padding: EdgeInsets.only(top: 20.0, left: 20.0),
+                            child: Text(
+                              _title,
+                              textAlign: TextAlign.left,
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15.0
                               ),
-                              Expanded(
-                                child: Padding(
-                                  padding:
-                                      EdgeInsets.only(top: 15.0, left: 20.0),
-                                  child: Text(
-                                    "No rate",
-                                    textAlign: TextAlign.left,
-                                    style: TextStyle(fontSize: 15.0),
-                                  ),
-                                ),
-                              ),
-                            ],
+                            ),
                           ),
                         ),
                         Expanded(
-                            child: Column(
-                          children: <Widget>[
-                            Padding(
-                              padding: EdgeInsets.only(top: 10),
-                              child: Icon(
-                                Icons.map,
-                                size: 40,
-                              ),
+                          child: Padding(
+                            padding: EdgeInsets.only(top: 15.0, left: 20.0),
+                            child: Text("No rate",
+                              textAlign: TextAlign.left,
+                              style: TextStyle(fontSize: 15.0),
                             ),
-                            Padding(
-                              padding: EdgeInsets.only(top: 5.0),
-                              child: Text(
-                                "Route",
-                                textAlign: TextAlign.right,
-                                style: TextStyle(fontSize: 15.0),
-                              ),
-                            ),
-                          ],
-                        )),
+                          ),
+                        ),
                       ],
-                    )),
-                onVerticalDragEnd: (details) {
-                  setPanelState(_height >= _midPoint);
-                },
-                onVerticalDragUpdate: (details) {
-                  double newHeight = _height - details.delta.dy;
-                  if (newHeight < _heightOpen && newHeight > _heightClosed) {
-                    setState(() {
-                      _height = newHeight;
-                    });
-                  } else {
-                    setPanelState(newHeight >= _heightOpen);
-                  }
-                },
-                onTap: () {
-                  setPanelState(!_isOpen);
-                }),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Padding(
-                    padding: EdgeInsets.all(10.0),
-                    child: Text(
-                      this._description,
-                      textAlign: TextAlign.start,
                     ),
                   ),
-                )
-              ],
-            ),
-            Container(
-              color: Color.fromRGBO(240, 240, 245, 1),
-              child: Column(
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.only(top: 15.0, bottom: 5.0),
-                    child: Text(
-                      "Rate this place",
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.only(bottom: 20.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                  Expanded(
+                    child: Column(
                       children: <Widget>[
-                        SmoothStarRating(
-                          allowHalfRating: false,
-                          onRatingChanged: (v) {
-                            _inputRating = v;
-                            setState(() {});
-                          },
-                          starCount: 5,
-                          rating: _inputRating,
-                          size: 40.0,
-                          color: Colors.green,
-                          borderColor: Colors.green,
-                        )
+                        Padding(
+                          padding: EdgeInsets.only(top: 10),
+                          child: Icon(Icons.map, size: 40),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 5.0),
+                          child: Text("Route",
+                            textAlign: TextAlign.right,
+                            style: TextStyle(fontSize: 15.0),
+                          ),
+                        ),
                       ],
-                    ),
+                    )
                   ),
                 ],
-              ),
+              )
             ),
-            Row(), // Place for opening hours
-          ],
-        ));
+            onVerticalDragEnd: (details) {
+              setPanelState(_height >= _midPoint);
+            },
+            onVerticalDragUpdate: (details) {
+              double newHeight = _height - details.delta.dy;
+              if (newHeight < _heightOpen && newHeight > _heightClosed) {
+                setState(() {
+                  _height = newHeight;
+                });
+              } else {
+                setPanelState(newHeight >= _heightOpen);
+              }
+            },
+            onTap: () {
+              setPanelState(!_isOpen);
+            }
+          ),
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(
+                    this._description,
+                    textAlign: TextAlign.start,
+                  ),
+                ),
+              )
+            ],
+          ),
+          Container(
+            color: Color.fromRGBO(240, 240, 245, 1),
+            child: Column(
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.only(top: 15.0, bottom: 5.0),
+                  child: Text("Rate this place",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(bottom: 20.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      SmoothStarRating(
+                        allowHalfRating: false,
+                        onRatingChanged: (v) {
+                          _inputRating = v;
+                          setState(() {});
+                        },
+                        starCount: 5,
+                        rating: _inputRating,
+                        size: 40.0,
+                        color: Colors.green,
+                        borderColor: Colors.green,
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Row(), // Place for opening hours
+        ],
+      )
+    );
   }
 }

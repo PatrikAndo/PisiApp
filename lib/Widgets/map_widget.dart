@@ -9,11 +9,11 @@ class MapWidget extends StatefulWidget {
 
 class _MapWidgetState extends State<MapWidget> {
   GoogleMapController mapController;
-  
+
   static final CameraPosition _defaultPosition = const CameraPosition(
-          target: LatLng(47.180086, 19.503736),
-          zoom: 6.0,
-        );
+    target: LatLng(47.180086, 19.503736),
+    zoom: 6.5,
+  );
 
   @override
   Widget build(BuildContext context) {
