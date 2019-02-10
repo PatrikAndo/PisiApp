@@ -13,7 +13,6 @@ class SlideUpPanel extends StatefulWidget {
 }
 
 class _SlideUpPanelState extends State<SlideUpPanel> {
-  
   //Widget's own variables
   double _height;
   bool _isOpen;
@@ -70,8 +69,8 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 border: Border(
-                  bottom: BorderSide(width: 1.0, color: Colors.grey)
-                )
+                  bottom: BorderSide(width: 1.0, color: Colors.grey),
+                ),
               ),
               child: Row(
                 children: <Widget>[
@@ -87,7 +86,7 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                               textAlign: TextAlign.left,
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 15.0
+                                fontSize: 15.0,
                               ),
                             ),
                           ),
@@ -95,7 +94,8 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                         Expanded(
                           child: Padding(
                             padding: EdgeInsets.only(top: 15.0, left: 20.0),
-                            child: Text("No rate",
+                            child: Text(
+                              "No rate",
                               textAlign: TextAlign.left,
                               style: TextStyle(fontSize: 15.0),
                             ),
@@ -113,16 +113,17 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                         ),
                         Padding(
                           padding: EdgeInsets.only(top: 5.0),
-                          child: Text("Route",
+                          child: Text(
+                            "Route",
                             textAlign: TextAlign.right,
                             style: TextStyle(fontSize: 15.0),
                           ),
                         ),
                       ],
-                    )
+                    ),
                   ),
                 ],
-              )
+              ),
             ),
             onVerticalDragEnd: (details) {
               setPanelState(_height >= _midPoint);
@@ -139,57 +140,70 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
             },
             onTap: () {
               setPanelState(!_isOpen);
-            }
+            },
           ),
-          Row(
-            children: <Widget>[
-              Expanded(
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
-                    this._description,
-                    textAlign: TextAlign.start,
-                  ),
-                ),
-              )
-            ],
-          ),
-          Container(
-            color: Color.fromRGBO(240, 240, 245, 1),
-            child: Column(
-              children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.only(top: 15.0, bottom: 5.0),
-                  child: Text("Rate this place",
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(bottom: 20.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+          ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: _height - _heightClosed,
+              maxHeight: _height - _heightClosed,
+            ),
+            child: SingleChildScrollView(
+              child: Column(
+                children: <Widget>[
+                  Row(
                     children: <Widget>[
-                      SmoothStarRating(
-                        allowHalfRating: false,
-                        onRatingChanged: (v) {
-                          _inputRating = v;
-                          setState(() {});
-                        },
-                        starCount: 5,
-                        rating: _inputRating,
-                        size: 40.0,
-                        color: Colors.green,
-                        borderColor: Colors.green,
-                      )
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Text(
+                            this._description,
+                            textAlign: TextAlign.start,
+                          ),
+                        ),
+                      ),
                     ],
                   ),
-                ),
-              ],
+                  Container(
+                    color: Color.fromRGBO(240, 240, 245, 1),
+                    child: Column(
+                      children: <Widget>[
+                        Padding(
+                          padding: EdgeInsets.only(top: 15.0, bottom: 5.0),
+                          child: Text(
+                            "Rate this place",
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(bottom: 20.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: <Widget>[
+                              SmoothStarRating(
+                                allowHalfRating: false,
+                                onRatingChanged: (v) {
+                                  _inputRating = v;
+                                  setState(() {});
+                                },
+                                starCount: 5,
+                                rating: _inputRating,
+                                size: 40.0,
+                                color: Colors.green,
+                                borderColor: Colors.green,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Row(), // Place for opening hours
+                ],
+              ),
             ),
           ),
-          Row(), // Place for opening hours
         ],
-      )
+      ),
     );
   }
 }
