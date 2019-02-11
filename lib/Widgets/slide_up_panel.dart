@@ -197,7 +197,22 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                       ],
                     ),
                   ),
-                  Row(), // Place for opening hours
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.symmetric(vertical: 10.0),
+                        child: Text("Opening Hours", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0),),
+                      ),
+                      Text("Monday: 00-24"),
+                      Text("Tuesday: 00-24"),
+                      Text("Wednesday: 00-24"),
+                      Text("Thursday: 00-24"),
+                      Text("Friday: 00-24"),
+                      Text("Saturday: 00-24"),
+                      Text("Sunday: 00-24"),
+                    ],
+                  ), // Place for opening hours
                 ],
               ),
             ),
