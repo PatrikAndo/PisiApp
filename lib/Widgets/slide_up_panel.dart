@@ -202,7 +202,11 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                     children: <Widget>[
                       Padding(
                         padding: EdgeInsets.symmetric(vertical: 10.0),
-                        child: Text("Opening Hours", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0),),
+                        child: Text(
+                          "Opening Hours",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 15.0),
+                        ),
                       ),
                       Text("Monday: 00-24"),
                       Text("Tuesday: 00-24"),

@@ -15,12 +15,22 @@ class _MapWidgetState extends State<MapWidget> {
     zoom: 6.5,
   );
 
+  void _onMapCreated(GoogleMapController controller) {
+    mapController = controller;
+
+    mapController.addMarker(
+      MarkerOptions(
+        position: LatLng(47.180086, 19.503736),
+        infoWindowText: InfoWindowText('Random Place', '5 Star Rating'),
+        icon: BitmapDescriptor.defaultMarker,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return GoogleMap(
-      onMapCreated: (controller) {
-        mapController = controller;
-      },
+      onMapCreated: _onMapCreated,
       options: GoogleMapOptions(
         scrollGesturesEnabled: true,
         tiltGesturesEnabled: false,
