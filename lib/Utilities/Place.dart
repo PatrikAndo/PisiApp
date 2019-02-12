@@ -1,12 +1,12 @@
-class Record {
+class Place {
 
   String _title;
   String _description;
-  int _rating;
+  double _rating;
   double _lattitude;
   double _longitude;
 
-  Record(this._title,this._description,this._rating,this._longitude,this._lattitude);
+  Place(this._title,this._description,this._rating,this._longitude,this._lattitude);
 
   String get Title{
     return _title;
@@ -16,7 +16,7 @@ class Record {
     return _description;
   }
 
-  int get Rating{
+  double get Rating{
     return _rating;
   }
 

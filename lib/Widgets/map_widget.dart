@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import '../Utilities/DataLoader.dart';
+import '../Utilities/Place.dart';
 
 class MapWidget extends StatefulWidget {
   @override
@@ -18,13 +20,21 @@ class _MapWidgetState extends State<MapWidget> {
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
 
-    mapController.addMarker(
-      MarkerOptions(
-        position: LatLng(47.180086, 19.503736),
-        infoWindowText: InfoWindowText('Random Place', '5 Star Rating'),
-        icon: BitmapDescriptor.defaultMarker,
-      ),
-    );
+    DataLoader.loadData().then((List<Place> places) {
+      places.forEach((p) {
+        mapController.addMarker(
+          MarkerOptions(
+            position: LatLng(p.Lattitude, p.Longitude),
+            infoWindowText: InfoWindowText(p.Title, p.Description),
+            icon: BitmapDescriptor.defaultMarker,
+          ),
+        );
+      });
+    });
+
+    mapController.onMarkerTapped.add((Marker m) {
+      print('hello id:' + m.id);
+    });
   }
 
   @override

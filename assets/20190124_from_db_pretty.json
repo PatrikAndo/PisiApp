@@ -1,0 +1,4855 @@
+[
+  {
+    "rating": 3.5,
+    "ratingCount": 4,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d4",
+    "description": "A Rákóczi úton, az Uránia Mozival szemben található a B&K Kft. által tervezett és gyártott nyilvános WC.   További információ:  http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.066568613052368,
+        47.49591511040527
+      ]
+    },
+    "name": "VIII. ker. Rákóczi u. 29.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 4,
+        "ratedAt": "2018-12-11T17:24:48.810Z",
+        "device": "5c0ff2a72476a200176d0439"
+      },
+      {
+        "rating": 2,
+        "ratedAt": "2018-12-20T11:02:17.102Z",
+        "device": "5c10169e2476a200176d0661"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-04T13:43:35.950Z",
+        "device": "5c2f62752476a200176d0e95"
+      },
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-23T20:38:24.204Z",
+        "device": "5c4608ca2476a200176d10b6"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.354Z",
+    "updatedAt": "2019-01-23T20:38:24.204Z",
+    "__v": 12
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d3",
+    "description": "Az Erzsébet ligetben található a B&K Kft. által tervezett és gyártott nyilvános WC. További információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.129595041275024,
+        46.771845940559515
+      ]
+    },
+    "name": "Erzsébet liget",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.353Z",
+    "updatedAt": "2018-12-07T23:14:20.353Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d2",
+    "description": "Balatonalmádiban, a Wesselényi strandon (Szent István sétány 6.) található nyilvános WC, amit Kiss László egyéni vállalkozó üzemeltet.  Nyitva tartás: 2008.05.15-2008.09.15. naponta 0-24 óráig.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.01183819770813,
+        47.02440149996716
+      ]
+    },
+    "name": "Wesselényi strand (Szent István sétány 6.)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.352Z",
+    "updatedAt": "2018-12-07T23:14:20.352Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d5",
+    "description": "A Március 15. téren, az Erzsébet híd pesti lábánál alálható a B&K Kft. által tervezett és gyártott nyilvános WC.   További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.053350687026978,
+        47.492058575001124
+      ]
+    },
+    "name": "V. ker. Március 15. tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.354Z",
+    "updatedAt": "2018-12-07T23:14:20.354Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d1",
+    "description": "Balatonalmádiban, az Öregparkban található nyilvános WC, amit Kiss László egyéni vállalkozó üzemeltet. Nyitva tartás: 2008.05.01-2008.10.01. naponta 0-24 óráig.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.01231026649475,
+        47.033776847897194
+      ]
+    },
+    "name": "Szent Erzsébet-liget (Öregpark)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.351Z",
+    "updatedAt": "2018-12-07T23:14:20.351Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00da",
+    "description": "A IV. kerületben, Rákospalotán található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.110031127929688,
+        47.563394834270284
+      ]
+    },
+    "name": "IV. ker. Szilágyi u. 1.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-28T14:11:57.504Z",
+        "device": "5c1131d72476a200176d0aac"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.358Z",
+    "updatedAt": "2018-12-28T14:11:57.504Z",
+    "__v": 1
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d7",
+    "description": "A XXIII. kerületben, a Nagybani Piac közelében található a B&K Kft. által tervezett és gyártott nyilvános WC.   További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.157752990722656,
+        47.41738755960783
+      ]
+    },
+    "name": "XXIII. ker. Nagybani Piac",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-24T08:53:21.418Z",
+        "device": "5c4789cb2476a200176d1302"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.357Z",
+    "updatedAt": "2019-01-24T08:53:21.418Z",
+    "__v": 13
+  },
+  {
+    "rating": 1,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d8",
+    "description": "A Margit híd budai hídfőében található az FCSM Zrt. által üzemeltetett nyilvános illemhely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.038877487182617,
+        47.514831227989504
+      ]
+    },
+    "name": "II. ker. Margit krt. 1",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-21T20:49:17.626Z",
+        "device": "5c1d502d2476a200176d0e13"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.357Z",
+    "updatedAt": "2018-12-21T20:49:17.626Z",
+    "__v": 2
+  },
+  {
+    "rating": 2.5,
+    "ratingCount": 4,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d6",
+    "description": "A Szabadság téren, a található a B&K Kft. által tervezett és gyártott nyilvános WC.  További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.049874544143677,
+        47.50317796629184
+      ]
+    },
+    "name": "V. ker. Szabadság tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-12T14:03:34.290Z",
+        "device": "5c1043602476a200176d0809"
+      },
+      {
+        "rating": 3,
+        "ratedAt": "2018-12-12T18:34:57.761Z",
+        "device": "5c0fba922476a200176d020d"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-13T11:23:33.981Z",
+        "device": "5c1033b22476a200176d07aa"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-26T00:04:46.249Z",
+        "device": "5c131d942476a200176d0c74"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.355Z",
+    "updatedAt": "2018-12-26T00:04:46.249Z",
+    "__v": 6
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00d9",
+    "description": "A II. és XII. kerület határán, a Moszkva tér alatt található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.024243354797363,
+        47.50708441630269
+      ]
+    },
+    "name": "II. ker. Várfok u. 28.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2018-12-11T17:16:06.458Z",
+        "device": "5c0fe1752476a200176d0349"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.358Z",
+    "updatedAt": "2018-12-11T22:54:14.161Z",
+    "__v": 5
+  },
+  {
+    "rating": 2.3,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00db",
+    "description": "Újpest központjában, az Árpád út 68. alatt, az aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.08998966217041,
+        47.56031069944929
+      ]
+    },
+    "name": "IV. ker. Árpád u. 68.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 4,
+        "ratedAt": "2018-12-12T04:48:30.321Z",
+        "device": "5c0fb19a2476a200176d01b4"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-12T06:27:23.263Z",
+        "device": "5c10a0562476a200176d0891"
+      },
+      {
+        "rating": 2,
+        "ratedAt": "2018-12-13T08:58:21.395Z",
+        "device": "5c121e9d2476a200176d0ba9"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.756Z",
+    "updatedAt": "2018-12-13T08:58:21.396Z",
+    "__v": 7
+  },
+  {
+    "rating": 1,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00dc",
+    "description": "A Deák téren, a Károly körút alatti aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános illemhely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.054981470108032,
+        47.49753158141797
+      ]
+    },
+    "name": "V. ker. Deák Ferenc tér 28.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2019-01-21T19:03:22.570Z",
+        "device": "5c4616742476a200176d1107"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.756Z",
+    "updatedAt": "2019-01-21T19:03:22.570Z",
+    "__v": 15
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00dd",
+    "description": "A Károly krt - Kossuth Lajos u. találkozásánál, az Asztóriánál található az FCSM Zrt. által üzemeltetett nyilvános köztéri WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.06004548072815,
+        47.49421884964807
+      ]
+    },
+    "name": "V. ker. Károly krt. 4.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.756Z",
+    "updatedAt": "2019-01-11T23:05:49.846Z",
+    "__v": 2
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00df",
+    "description": "V. kerületben, a Petőfi téren a szobor mögött található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.05030369758606,
+        47.49318946811486
+      ]
+    },
+    "name": "V. ker. Petőfi tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2018-12-07T23:14:20.757Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00de",
+    "description": "Az V. kerületben, a Károlyi u. - Curia u. találkozásánál, a Ferenciek tere alatt található az FCSM Zrt. által üzemeltetett köztéri nyilvános illemhely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.055989980697632,
+        47.49274001351137
+      ]
+    },
+    "name": "V. ker. Károlyi Mihály u. 3.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.756Z",
+    "updatedAt": "2018-12-07T23:14:20.756Z",
+    "__v": 0
+  },
+  {
+    "rating": 1,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e0",
+    "description": "A VI kerületben, a Teréz körúton (Oktogon alatt) található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.06306564807892,
+        47.505265307846116
+      ]
+    },
+    "name": "VI. ker. Oktogon alatt",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2019-01-19T11:21:08.219Z",
+        "device": "5c0fb76d2476a200176d01f7"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2019-01-19T11:21:08.219Z",
+    "__v": 3
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e1",
+    "description": "Az I. kerületben, a Batthyány téri aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.038898944854736,
+        47.50646839061812
+      ]
+    },
+    "name": "I. ker. Batthyány tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2018-12-07T23:14:20.757Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 2,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e3",
+    "description": "Az I. kerületben, a Déli PU. előtti aluljáró kerengőjében található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.024157524108887,
+        47.50151818061128
+      ]
+    },
+    "name": "I. ker. Déli Pályaudvar",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-18T08:18:42.613Z",
+        "device": "5c120d8b2476a200176d0b8e"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-21T16:00:59.596Z",
+        "device": "5c45ec402476a200176d0f97"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2019-01-21T16:00:59.596Z",
+    "__v": 2
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e2",
+    "description": "Az I. kerületben, a Jezsuita lépcső 1-3 alatt (Halászbástya) található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.03602361679077,
+        47.50108329359113
+      ]
+    },
+    "name": "I. ker. Halászbástya",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2018-12-07T23:14:20.757Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e4",
+    "description": "Az I. kerületben, a Krisztina körúti parkban található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.032965898513794,
+        47.49675597149215
+      ]
+    },
+    "name": "I. ker. Horváth kert",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.757Z",
+    "updatedAt": "2018-12-07T23:14:20.757Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e5",
+    "description": "Az I. kerületben, a Palota úton található Fehérvári kapu mellett üzemel az FCSM Zrt. által fenntartott nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.036173820495605,
+        47.498676853630016
+      ]
+    },
+    "name": "I. ker. Palota út",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.925Z",
+    "updatedAt": "2018-12-07T23:14:20.925Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e6",
+    "description": "Az I. kerületben, a Hunyadi János úton, a Halászbástyához vezető lépcső mellett található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.035905599594116,
+        47.50202554424834
+      ]
+    },
+    "name": "I. ker. Hunyadi út",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.925Z",
+    "updatedAt": "2018-12-07T23:14:20.925Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e7",
+    "description": "A VIII. kerületi Kálvin téren, a Múzeum előtt (föld alatti) található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.06204104423523,
+        47.48962272250307
+      ]
+    },
+    "name": "VIII. ker. Kálvin tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.926Z",
+    "updatedAt": "2018-12-07T23:14:20.926Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e8",
+    "description": "A VIII. kerületben, a Nagyvárad téri aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.08927083015442,
+        47.47906605615823
+      ]
+    },
+    "name": "VIII. ker. Nagyvárad tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-15T06:11:19.673Z",
+        "device": "5c10fbd12476a200176d0a23"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.926Z",
+    "updatedAt": "2018-12-15T06:11:19.673Z",
+    "__v": 1
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00e9",
+    "description": "A VIII. kerületben, a Teleki téri piac bejáratánál található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.08297300338745,
+        47.49371865973319
+      ]
+    },
+    "name": "VIII. ker. Teleki László tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.926Z",
+    "updatedAt": "2018-12-07T23:14:20.926Z",
+    "__v": 0
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00ea",
+    "description": "A IX. kerületben, a Ferenc körút 1. szám alatti (Boráros tér) aluljáróban található az FCSM Zrt. által üzemeltetett köztéri WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.066439867019653,
+        47.4802914923333
+      ]
+    },
+    "name": "IX. ker. Boráros tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-03T18:42:52.354Z",
+        "device": "5c2e57012476a200176d0e92"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.926Z",
+    "updatedAt": "2019-01-03T18:42:52.354Z",
+    "__v": 1
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00eb",
+    "description": "A IX. kerületben, a Ferenc krt. és Üllői út találkozásánál, az aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.069883823394775,
+        47.48580197628936
+      ]
+    },
+    "name": "IX. ker. Ferenc krt.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-03T18:42:59.000Z",
+        "device": "5c2e57012476a200176d0e92"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.926Z",
+    "updatedAt": "2019-01-03T18:42:59.000Z",
+    "__v": 6
+  },
+  {
+    "rating": 4,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00ec",
+    "description": "A IX. kerületben az Üllői út - Könyves Kálmán körút kereszteződésében, az aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.098851680755615,
+        47.47559262316623
+      ]
+    },
+    "name": "IX. ker. Könyves K. krt.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 4,
+        "ratedAt": "2019-01-03T18:43:24.759Z",
+        "device": "5c2e57012476a200176d0e92"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.927Z",
+    "updatedAt": "2019-01-03T18:43:24.759Z",
+    "__v": 2
+  },
+  {
+    "rating": 1.5,
+    "ratingCount": 2,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00ed",
+    "description": "A X. kerületben, a Határ úti aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.128119945526123,
+        47.464576188626154
+      ]
+    },
+    "name": "X. ker. Határ út",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 2,
+        "ratedAt": "2018-12-11T14:53:13.208Z",
+        "device": "5c0fceef2476a200176d027d"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-13T16:31:02.825Z",
+        "device": "5c1116082476a200176d0a64"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:20.927Z",
+    "updatedAt": "2018-12-13T16:31:02.825Z",
+    "__v": 2
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecc2476a200176d00ee",
+    "description": "A X. kerületben, az Izraelita temető mellett, a Kozma út - Sírkert út sarkán található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.17812705039978,
+        47.47305447892669
+      ]
+    },
+    "name": "X. ker. Kozma út",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:20.927Z",
+    "updatedAt": "2018-12-07T23:14:20.927Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f1",
+    "description": "A XI. kerületben, a Szirtes utcában (Gellért hegyen) található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.04258966445923,
+        47.48676625155374
+      ]
+    },
+    "name": "XI. ker. Szirtes u.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.081Z",
+    "updatedAt": "2018-12-07T23:14:21.081Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f0",
+    "description": "A XI. kerületben, a Kosztolányi Dezső téren (Feneketlen tó mellett) található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.04052972793579,
+        47.47515752143177
+      ]
+    },
+    "name": "XI. ker. Kosztolányi D. tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.081Z",
+    "updatedAt": "2018-12-07T23:14:21.081Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 2,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00ef",
+    "description": "A XI. kerületben, a Móricz Zsigmond körtér aluljárójában található az FCSM Zrt. által üzemeltetett nyilvános illemhely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.047718048095703,
+        47.47757229056905
+      ]
+    },
+    "name": "XI. ker. Mórizc Zs. körtér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-22T09:39:43.735Z",
+        "device": "5c101b302476a200176d06b0"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-06T15:01:27.723Z",
+        "device": "5c1198922476a200176d0b62"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.080Z",
+    "updatedAt": "2019-01-06T15:01:27.723Z",
+    "__v": 2
+  },
+  {
+    "rating": 3.7,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f2",
+    "description": "A XIII. kerületben, a Dózsa György út - Váci út kereszteződésében, az aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.063339233398438,
+        47.52441713940021
+      ]
+    },
+    "name": "XIII. ker. Váci út",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-11T18:44:55.508Z",
+        "device": "5c0ffa852476a200176d04bb"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-22T10:02:29.917Z",
+        "device": "5c1016ac2476a200176d0663"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-11T06:39:52.175Z",
+        "device": "5c3839fc2476a200176d0f13"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.081Z",
+    "updatedAt": "2019-01-11T06:39:52.175Z",
+    "__v": 3
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f3",
+    "description": "A XIII. kerületben, a Lehel téri aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános illemhely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.060195684432983,
+        47.51636016420568
+      ]
+    },
+    "name": "XIII. ker. Lehel tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.081Z",
+    "updatedAt": "2018-12-07T23:14:21.081Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f4",
+    "description": "A XIII. kerületben, a Nyugati téri aluljáróban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.055979251861572,
+        47.510396336348755
+      ]
+    },
+    "name": "XIII. ker. Nyugati tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.081Z",
+    "updatedAt": "2018-12-07T23:14:21.081Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f6",
+    "description": "A XIV. kerületben a Kacsor Pongrác út 30. (felüljáró mellett) alatt található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.10670518875122,
+        47.53842695295833
+      ]
+    },
+    "name": "XIV. ker. Millenium FAV",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.082Z",
+    "updatedAt": "2018-12-07T23:14:21.082Z",
+    "__v": 0
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f7",
+    "description": "A XIV. kerületben, az Örs vezér tér 7. alatt, található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.136370420455933,
+        47.50319970986082
+      ]
+    },
+    "name": "XIV. ker. Örs vezér tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-21T18:45:29.374Z",
+        "device": "5c4612f92476a200176d10ec"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.082Z",
+    "updatedAt": "2019-01-21T18:45:29.374Z",
+    "__v": 2
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f5",
+    "description": "A XIII. kerületben, a Róbert Károly körút - Váci út találkozásánál (az aluljáróban) található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.066450595855713,
+        47.53241492676778
+      ]
+    },
+    "name": "XIII. Róbert Károly krt.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-03T18:42:21.833Z",
+        "device": "5c2e57012476a200176d0e92"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.082Z",
+    "updatedAt": "2019-01-14T08:30:24.564Z",
+    "__v": 5
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f8",
+    "description": "A XIV. kerületben, a Hősök terén, a Műcsarnok melletti parkban található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.07722234725952,
+        47.51439645126203
+      ]
+    },
+    "name": "XIV. ker. Hősök tere",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.082Z",
+    "updatedAt": "2018-12-07T23:14:21.082Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00f9",
+    "description": "A XIV. kerületben, a Széchenyi Fürdő mellett (Állatkerti krt. 1.) található az FCSM Zrt. által üzemeltetett nyilvános WC. (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.07773733139038,
+        47.515823954680755
+      ]
+    },
+    "name": "XIV. ker. Széchenyi Fürdő",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.249Z",
+    "updatedAt": "2018-12-07T23:14:21.249Z",
+    "__v": 0
+  },
+  {
+    "rating": 3,
+    "ratingCount": 2,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00fa",
+    "description": "A XIV. kerületben, a Városliget krt. 1. szám alatt (Rondónál) található az FCSM Zrt. által üzemeltetett nyilvános WC.  (Időszakos nyitvatartás: május 1 - szeptember 30.)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.087361097335815,
+        47.51635291816756
+      ]
+    },
+    "name": "XIV. ker. Városliget Rondó",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-11T18:16:22.733Z",
+        "device": "5c0ffebb2476a200176d050c"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-21T16:23:53.834Z",
+        "device": "5c45f1ce2476a200176d0feb"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.249Z",
+    "updatedAt": "2019-01-21T16:23:53.834Z",
+    "__v": 5
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00fb",
+    "description": "A XV. kerületi MÁV telepen (közterület) található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.120770692825317,
+        47.54228732440373
+      ]
+    },
+    "name": "XV. ker. Rákospalota",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.249Z",
+    "updatedAt": "2018-12-07T23:14:21.249Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 2,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00fc",
+    "description": "A XXI. kerületben, a Szent Imre téren található az FCSM Zrt. által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.068703651428223,
+        47.43034451941362
+      ]
+    },
+    "name": "XXI. ker. Szent Imre tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-12T14:12:55.049Z",
+        "device": "5c1116f72476a200176d0a67"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-22T13:15:41.599Z",
+        "device": "5c47175a2476a200176d129f"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.250Z",
+    "updatedAt": "2019-01-22T13:15:41.599Z",
+    "__v": 2
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00fd",
+    "description": "A Bethlen Gábor téren található a B&K Kft által gyártott és forgalmazott nyilvános WC.További információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.07946467399597,
+        47.503707057246906
+      ]
+    },
+    "name": "VII. ker. Bethlen Gábor tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.250Z",
+    "updatedAt": "2018-12-07T23:14:21.250Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00fe",
+    "description": "A Vérhalom téren található a B&K Kft által gyártott és forgalmazott nyilvános WC.További információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.02486562728882,
+        47.520714852111816
+      ]
+    },
+    "name": "II. ker. Vérhalom tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.250Z",
+    "updatedAt": "2018-12-07T23:14:21.250Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d00ff",
+    "description": "A Mechwart téren található a B&K Kft által gyártott és forgalmazott nyilvános WC.További információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.031860828399658,
+        47.51147973091077
+      ]
+    },
+    "name": "II. ker. Mechwart tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-23T20:37:53.052Z",
+        "device": "5c4608ca2476a200176d10b6"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.250Z",
+    "updatedAt": "2019-01-23T20:37:53.052Z",
+    "__v": 1
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0100",
+    "description": "A Markusovszky téren található a B&K Kft által gyártott és forgalmazott nyilvános WC.További információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.06605362892151,
+        47.485700472600215
+      ]
+    },
+    "name": "IX. ker. Markusovszky tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.251Z",
+    "updatedAt": "2018-12-07T23:14:21.251Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0101",
+    "description": "A városligeti Műlyégpálya mögötti földalatti llemhely. www.BandK.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.0792179107666,
+        47.514229785894734
+      ]
+    },
+    "name": "XIV. ker. Városliget",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.251Z",
+    "updatedAt": "2018-12-07T23:14:21.251Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0102",
+    "description": "A Mátyás téren található nyilvános WC, melynek beléptetést suolgáló érmevizsgáló berendezését tervezte és gyártotta a B&K Kft. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.079309105873108,
+        47.49195345869907
+      ]
+    },
+    "name": "VIII. ker. Mátyás tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.251Z",
+    "updatedAt": "2018-12-07T23:14:21.251Z",
+    "__v": 0
+  },
+  {
+    "rating": 1,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0104",
+    "description": "A Honvéd téren található a B&K Kft. által tervezett és gyártott nyilvános WC.További információ:www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.05104398727417,
+        47.5094180009728
+      ]
+    },
+    "name": "V. ker. Honvéd tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-26T00:04:53.421Z",
+        "device": "5c131d942476a200176d0c74"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2019-01-14T17:54:50.430Z",
+        "device": "5c3839fc2476a200176d0f13"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2019-01-23T20:37:24.921Z",
+        "device": "5c4608ca2476a200176d10b6"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.413Z",
+    "updatedAt": "2019-01-23T20:37:24.921Z",
+    "__v": 4
+  },
+  {
+    "rating": 1.7,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0103",
+    "description": "A XIV. kerületi Bosnyák téren található a B&K Kft. által tervezett és gyártott nyilvános WC. További információk:www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.11398470401764,
+        47.520522847699574
+      ]
+    },
+    "name": "XIV. ker.  Bosnyák tér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-11T17:12:37.995Z",
+        "device": "5c0fefe02476a200176d0411"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-14T03:05:17.746Z",
+        "device": "5c131d942476a200176d0c74"
+      },
+      {
+        "rating": 3,
+        "ratedAt": "2018-12-21T23:02:09.643Z",
+        "device": "5c1156fd2476a200176d0af1"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.412Z",
+    "updatedAt": "2018-12-21T23:02:09.643Z",
+    "__v": 10
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0105",
+    "description": "Hajdúszoboszlón, a József Attila utcában (a szabadtéri színpad nézőtere mellett) található a Jóni Mihályné egyéni vállalkozó által üzemeltetett nyilvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.398556232452393,
+        47.449146398693934
+      ]
+    },
+    "name": "József Attila u. 2-18.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.413Z",
+    "updatedAt": "2018-12-07T23:14:21.413Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0106",
+    "description": "A Kossuth téren található a B&K Kft. által tervezett és gyártott nyilvános WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.685568809509277,
+        47.66687577438672
+      ]
+    },
+    "name": "Kossuth tér 3.",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-10T23:18:52.301Z",
+        "device": "5c0ef4302476a200176d015e"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.413Z",
+    "updatedAt": "2018-12-10T23:18:52.302Z",
+    "__v": 1
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0107",
+    "description": "Hévízen, a római kori romkertben található a B&K kft által tervezett és gyártott nyílvános illemehely.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.191275358200073,
+        46.80167518734945
+      ]
+    },
+    "name": "Hévíz - Római kori romkert",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.413Z",
+    "updatedAt": "2018-12-07T23:14:21.413Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0109",
+    "description": "A Szentháromság tér - Fürdő u. kereszteződésénél található a B&K Kft által tervezett és gyártott köztéri illemhely. www.BandK.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.91137593984604,
+        47.50225748027787
+      ]
+    },
+    "name": "Szentháromság tér - Fürdő u. kereszteződés",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.414Z",
+    "updatedAt": "2018-12-07T23:14:21.414Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010a",
+    "description": "Komáromban a Jókai ligetben található a B&K Kft. által tervezett és gyártott Magyar Termék Nagydíjas nyilvános WC. További információk:www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.121368885040283,
+        47.7473460377646
+      ]
+    },
+    "name": "Jókai liget",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.414Z",
+    "updatedAt": "2018-12-07T23:14:21.414Z",
+    "__v": 0
+  },
+  {
+    "rating": 1,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0108",
+    "description": "A hódmezővásárhelyi Népkertben található a B&K Kft. által tervezett és gyártott nyilvános WC.További információk:www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.318591594696045,
+        46.41186930973155
+      ]
+    },
+    "name": "Népkert",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-11T16:13:58.427Z",
+        "device": "5c0f6aab2476a200176d017f"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.414Z",
+    "updatedAt": "2019-01-23T20:49:29.236Z",
+    "__v": 5
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010b",
+    "description": "Az M1-es autópálya 57 km-nél található nyilvános illemhely. Az illemhelyek szervizelését a B&K Kft. látja el.\tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.414244651794434,
+        47.57898648247137
+      ]
+    },
+    "name": "M1 57km (Turul)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.414Z",
+    "updatedAt": "2018-12-07T23:14:21.414Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010c",
+    "description": "Szentgyörgypusztától nem messze, az M1-es autópálya 65 km-nél található illemhely. Az illemhelyek szervizelését a B&K Kft. látja el. \tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.341503143310547,
+        47.61646271521382
+      ]
+    },
+    "name": "M1 65km (Remeteség)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.414Z",
+    "updatedAt": "2018-12-07T23:14:21.414Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010d",
+    "description": "Az M1-es autópálya 72km-nél, Kocs közelében található pihenőházban kiépített WC. Az illemhelyek szervizelését a B&K Kft. látja el. \tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.227005004882812,
+        47.63948497925488
+      ]
+    },
+    "name": "M1 72km (Grébics)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.589Z",
+    "updatedAt": "2018-12-07T23:14:21.589Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010e",
+    "description": "Az M1-es autópálya 135 km-nél, a börcsi pihenőhelyen található WC. Az illemhelyek szervizelését a B&K Kft. látja el. \tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.478561401367188,
+        47.711378638282554
+      ]
+    },
+    "name": "M1 135km (Börcs)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.590Z",
+    "updatedAt": "2018-12-07T23:14:21.590Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d010f",
+    "description": "Az M1-es autópálya 145km-nél, Lébény közelében található pihenőházban kiépített WC. Az illemhelyek szervizelését a B&K Kft. látja el. \tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.403717041015625,
+        47.756521540032146
+      ]
+    },
+    "name": "M1 145km (Lébény)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.590Z",
+    "updatedAt": "2018-12-07T23:14:21.590Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0110",
+    "description": "Az M1-es autópálya 150km-nél, Mosonmagyaróvár előtt található pihenőházban kiépített WC. Az illemhelyek szervizelését a B&K Kft. látja el. \tTovábbi információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.27977752685547,
+        47.8249116730313
+      ]
+    },
+    "name": "M1 150km (Hanság)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.591Z",
+    "updatedAt": "2018-12-07T23:14:21.591Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0111",
+    "description": "Az M3-as autópálya 18km-nél, Mogyoród közelében található pihenőházban, a B&K Kft. termékeivel kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.218177795410156,
+        47.593198777144636
+      ]
+    },
+    "name": "M3 18km (Ring)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.593Z",
+    "updatedAt": "2018-12-07T23:14:21.593Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0113",
+    "description": "Az M3-as autópálya 36km-nél, Bag közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.43979263305664,
+        47.62537203020587
+      ]
+    },
+    "name": "M3 36km (Kisbag)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.595Z",
+    "updatedAt": "2018-12-07T23:14:21.595Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0114",
+    "description": "Az M3-as autópálya 43km-nél, Aszód közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.52871322631836,
+        47.644226999931995
+      ]
+    },
+    "name": "M3 43km (Galga)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.595Z",
+    "updatedAt": "2018-12-07T23:14:21.595Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0115",
+    "description": "Az M3-as autópálya 51km-nél, kerekharaszti pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.623727798461914,
+        47.66885544914306
+      ]
+    },
+    "name": "M3 51km (Kerekharaszt)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.595Z",
+    "updatedAt": "2018-12-07T23:14:21.595Z",
+    "__v": 0
+  },
+  {
+    "rating": 1,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0112",
+    "description": "Az M3-as autópálya 32km-nél, Gödöllő közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.401168823242188,
+        47.61484267663789
+      ]
+    },
+    "name": "M3 32km (Babat)",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-22T13:24:37.220Z",
+        "device": "5c100b492476a200176d05ce"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.594Z",
+    "updatedAt": "2018-12-22T13:24:37.220Z",
+    "__v": 4
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0116",
+    "description": "Az M3-as autópálya 60km-nél, Hort közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.78191375732422,
+        47.70075109139772
+      ]
+    },
+    "name": "M3 60km (Hort)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.597Z",
+    "updatedAt": "2018-12-07T23:14:21.597Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0117",
+    "description": "Az M3-as autópálya 66km-nél, Ecséd közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.784317016601562,
+        47.70514099299205
+      ]
+    },
+    "name": "M3 66km (Ecséd)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.745Z",
+    "updatedAt": "2018-12-07T23:14:21.745Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0118",
+    "description": "Az M3-as autópálya 75km-nél, Gyöngyöshalász közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.904823303222656,
+        47.7303180218142
+      ]
+    },
+    "name": "M3 75km (Halászaranyos)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.746Z",
+    "updatedAt": "2018-12-07T23:14:21.746Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011a",
+    "description": "Az M3-as autópálya 92km-nél, Nagyfüged közelében található pihenőházban kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.101547241210938,
+        47.705603066391944
+      ]
+    },
+    "name": "M3 92km (Kisasszonytér)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.746Z",
+    "updatedAt": "2018-12-07T23:14:21.746Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011b",
+    "description": "Az M3-as autópálya 122km-nél, Füzesabony után található pihenőházban kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.50673246383667,
+        47.764123285618595
+      ]
+    },
+    "name": "M3 122km (Mezőszemere)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0119",
+    "description": "Az M3-as autópálya 87km-nél, Karácsond közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.06378173828125,
+        47.70698926201497
+      ]
+    },
+    "name": "M3 87km (Nagyfüged)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.746Z",
+    "updatedAt": "2018-12-07T23:14:21.746Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011e",
+    "description": "Az M3-as autópálya 171km-nél, Polgár közelében található pihenőházban kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.09623908996582,
+        47.84876359863891
+      ]
+    },
+    "name": "M3 171km (Polgár)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011c",
+    "description": "Az M3-as autópálya 142km-nél, Mezőkeresztes közelében található pihenőházban kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.743989944458008,
+        47.84236959293804
+      ]
+    },
+    "name": "M3 142km (Gelej)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011d",
+    "description": "Az M3-as autópálya 153km-nél, Igrici közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.870976448059082,
+        47.88436263791127
+      ]
+    },
+    "name": "M3 153km (Igrici)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d011f",
+    "description": "Az M35 autópálya 7-es kilóméterénél, található a B&K Kft termékeivel kiépített nyilvános illemehely. Az illmehelyek szervizelését a B&K Kft. végzi. További információk: www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.31798267364502,
+        47.75747362214391
+      ]
+    },
+    "name": "M35 7km (Pródi)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0120",
+    "description": "Az M35-es autópálya 19 km-nél, a böszörményi pihenőhelyen található nyilvános WC.Az illemhelyek szervizelését a B&K Kft. látja el. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.475911140441895,
+        47.66027149880149
+      ]
+    },
+    "name": "M35 19km (Böszörmény)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.747Z",
+    "updatedAt": "2018-12-07T23:14:21.747Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0121",
+    "description": "Az M7-es autópálya 50km-nél, Pákozd közelében található pihenőházban kiépített WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.56993079185486,
+        47.22420239432661
+      ]
+    },
+    "name": "M7 50km (Pákozd)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.919Z",
+    "updatedAt": "2018-12-07T23:14:21.919Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0122",
+    "description": "Az M7-es autópálya 50km-nél, Szabadbattyán közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.37963342666626,
+        47.1031120069853
+      ]
+    },
+    "name": "M7 70km (Gorsium)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.920Z",
+    "updatedAt": "2018-12-07T23:14:21.920Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0123",
+    "description": "Az M7-es autópálya 100km-nél, Siófok közelében található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.10598373413086,
+        46.916334712041376
+      ]
+    },
+    "name": "M7 100km (Szabadi)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.920Z",
+    "updatedAt": "2018-12-07T23:14:21.920Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0124",
+    "description": "Az M7-es autópálya 108km-nél, Balatonszéplak után található pihenőházban kiépített WC.További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.98736572265625,
+        46.881784366406706
+      ]
+    },
+    "name": "M7 108km (Törek)",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.920Z",
+    "updatedAt": "2018-12-07T23:14:21.920Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0125",
+    "description": "Monoron, a önkormányzat által, EU-s társfinanszírozással felépített közösségi fürdőházban létesített nyilvános WC.   További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.459726810455322,
+        47.354074041728175
+      ]
+    },
+    "name": "Cinka Panna utca",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.921Z",
+    "updatedAt": "2018-12-07T23:14:21.921Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0126",
+    "description": "A Barbakán téren, a parkoló mellett található a B&K Kft. által tervezett és gyártott nyilvános WC.  \tTovábbi információ:  http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.220481872558594,
+        46.07716783492085
+      ]
+    },
+    "name": "Barbakán tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.921Z",
+    "updatedAt": "2018-12-07T23:14:21.921Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0127",
+    "description": "Salgótarjánban, a Rákóczi út 20 szám alatt található a VGÜ Kft által üzemeltetett nyílvános WC.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.807523488998413,
+        48.104458029946144
+      ]
+    },
+    "name": "Rákóczi u. 20.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.922Z",
+    "updatedAt": "2018-12-07T23:14:21.922Z",
+    "__v": 0
+  },
+  {
+    "rating": 5,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0128",
+    "description": "A Siklósi Vár parkolójában található a Mészáros Gyula egyéni vállalkozó által üzemeltetett nyilvános WC. Nyitvatartási ideje: 9-18 óra között.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.295669555664062,
+        45.85170070559234
+      ]
+    },
+    "name": "A Siklósi Vár parkolójában",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-19T18:49:30.080Z",
+        "device": "5c11633e2476a200176d0b09"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.922Z",
+    "updatedAt": "2018-12-19T18:49:30.081Z",
+    "__v": 1
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d0129",
+    "description": "Sopron belvárosában található a B&K Kft. által tervezett és gyártott nyilvános WC.  További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.591769456863403,
+        47.683592272858526
+      ]
+    },
+    "name": "Várkerület 96.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:21.922Z",
+    "updatedAt": "2018-12-07T23:14:21.922Z",
+    "__v": 0
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afecd2476a200176d012a",
+    "description": "A Főtéren található a B&K Kft. által tervezett és gyártott nyilvános WC. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.397133499383926,
+        47.58494703436555
+      ]
+    },
+    "name": "Főtér",
+    "source": "nyilvanoswceu",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2018-12-11T15:15:31.433Z",
+        "device": "5c0fd45a2476a200176d029f"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:21.923Z",
+    "updatedAt": "2018-12-29T22:25:16.031Z",
+    "__v": 8
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d012b",
+    "description": "Tokajban, a Dózsa György utcában található a B&K Kft. által tervezett és gyártott nyilvános WC. \t\t\tTovábbi információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.407289505004883,
+        48.125868094238236
+      ]
+    },
+    "name": "Dózsa György u.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.088Z",
+    "updatedAt": "2018-12-07T23:14:22.088Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d012c",
+    "description": "Tokajban, a Kis Albert téren található a B&K Kft. által tervezett és gyártott nyilvános WC. \tTovábbi információ:http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.411795616149902,
+        48.12436416563979
+      ]
+    },
+    "name": "Kis Albert tér",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.089Z",
+    "updatedAt": "2018-12-07T23:14:22.089Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d012d",
+    "description": "A Kossuth utcában található nyilvános illemhely, melynek vandálbiztos berendezéseit biztosította a B&K Kft. További információ: http://www.bandk.hu",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.912902235984802,
+        47.09329598346017
+      ]
+    },
+    "name": "Kossuth utca",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.089Z",
+    "updatedAt": "2018-12-07T23:14:22.089Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d012f",
+    "address": "1084 Budapest, Auróra u. 11",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.076166,
+        47.494083
+      ]
+    },
+    "name": "Auróra",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "monday": [
+        {
+          "close": "2300",
+          "isCloseOnNextDay": false,
+          "open": "1200"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1200"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2300",
+          "isCloseOnNextDay": false,
+          "open": "1200"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.090Z",
+    "updatedAt": "2018-12-07T23:14:22.090Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d012e",
+    "description": "Zalaegerszeg Megyei Jogú Város Önkormányzata tulajdonában lévő nyilvános illemhely a Széchenyi tér 2. sz. alatt található, üzemeltetője a Kontakt Humán Szolgáltató Kht. Nyitvatartási ideje H-P: 8.00-tól 19.00, Sz: 8.00-tól 13.00, V: 9.00-től 13.00.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.84626817703247,
+        46.8446213987974
+      ]
+    },
+    "name": "Széchenyi tér 2.",
+    "source": "nyilvanoswceu",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.089Z",
+    "updatedAt": "2018-12-07T23:14:22.089Z",
+    "__v": 0
+  },
+  {
+    "rating": 3.7,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0130",
+    "address": "1055 Budapest, Balassi Bálint u. 9-11.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.047132,
+        47.510507
+      ]
+    },
+    "name": "Belvárosi Közösségi Pont",
+    "openHours": {
+      "friday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0800"
+        }
+      ],
+      "monday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0800"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0800"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0800"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-11T16:12:00.426Z",
+        "device": "5c0fe1a22476a200176d034e"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2018-12-26T00:04:59.242Z",
+        "device": "5c131d942476a200176d0c74"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2019-01-17T16:10:45.061Z",
+        "device": "5c40a8702476a200176d0f40"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:22.090Z",
+    "updatedAt": "2019-01-17T16:10:45.061Z",
+    "__v": 3
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0131",
+    "address": "1117 Budapest, Hunyadi János út 162.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.047608,
+        47.435902
+      ]
+    },
+    "name": "Dunaparty Megálló",
+    "openHours": {
+      "friday": [
+        {
+          "close": "2000",
+          "isCloseOnNextDay": false,
+          "open": "1200"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2000",
+          "isCloseOnNextDay": false,
+          "open": "1100"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2000",
+          "isCloseOnNextDay": false,
+          "open": "1100"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.090Z",
+    "updatedAt": "2018-12-07T23:14:22.090Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0132",
+    "address": "1083 Budapest, Bókay János u. 34",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.078933,
+        47.486386
+      ]
+    },
+    "name": "Gólya",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1130"
+        }
+      ],
+      "monday": [
+        {
+          "close": "2345",
+          "isCloseOnNextDay": false,
+          "open": "1130"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2300",
+          "isCloseOnNextDay": false,
+          "open": "1800"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1130"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2345",
+          "isCloseOnNextDay": false,
+          "open": "1130"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2345",
+          "isCloseOnNextDay": false,
+          "open": "1130"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.090Z",
+    "updatedAt": "2018-12-07T23:14:22.090Z",
+    "__v": 0
+  },
+  {
+    "rating": 3.7,
+    "ratingCount": 3,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0133",
+    "address": "1073 Budapest, Erzsébet krt. 12",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.069674,
+        47.498935
+      ]
+    },
+    "name": "Humbák művek",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "monday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-11T13:56:05.811Z",
+        "device": "5c0fc1782476a200176d023e"
+      },
+      {
+        "rating": 5,
+        "ratedAt": "2018-12-17T23:16:40.476Z",
+        "device": "5c0fb19a2476a200176d01b4"
+      },
+      {
+        "rating": 1,
+        "ratedAt": "2019-01-17T16:09:31.432Z",
+        "device": "5c40a8702476a200176d0f40"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:22.091Z",
+    "updatedAt": "2019-01-17T16:09:31.432Z",
+    "__v": 4
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0134",
+    "address": "1076 Budapest, Garay tér 20.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.08586,
+        47.503711
+      ]
+    },
+    "name": "Garay üzletközpont és piac",
+    "openHours": {
+      "friday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "monday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.091Z",
+    "updatedAt": "2018-12-07T23:14:22.091Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0135",
+    "address": "1061 Budapest, Jókai tér 3",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.061639,
+        47.504786
+      ]
+    },
+    "name": "Kiadó",
+    "openHours": {
+      "monday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1100"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1100"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0100",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.253Z",
+    "updatedAt": "2018-12-07T23:14:22.253Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0136",
+    "address": "1077 Budapest, Kis Diófa u. 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.062736,
+        47.499856
+      ]
+    },
+    "name": "Kisüzem",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "monday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1200"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.253Z",
+    "updatedAt": "2018-12-07T23:14:22.253Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0138",
+    "address": "1062 Budapest, Andrássy út 98.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.071214,
+        47.510996
+      ]
+    },
+    "name": "MagNet Bank",
+    "openHours": {
+      "friday": [
+        {
+          "close": "1600",
+          "isCloseOnNextDay": false,
+          "open": "0830"
+        }
+      ],
+      "monday": [
+        {
+          "close": "1600",
+          "isCloseOnNextDay": false,
+          "open": "0830"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1800",
+          "isCloseOnNextDay": false,
+          "open": "0830"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1600",
+          "isCloseOnNextDay": false,
+          "open": "0830"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1600",
+          "isCloseOnNextDay": false,
+          "open": "0830"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.254Z",
+    "updatedAt": "2018-12-07T23:14:22.254Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0139",
+    "address": "1074 Budapest, Dohány utca 30/A",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.064534,
+        47.496042
+      ]
+    },
+    "name": "Platós Budapest",
+    "openHours": {
+      "friday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "monday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.254Z",
+    "updatedAt": "2018-12-07T23:14:22.254Z",
+    "__v": 0
+  },
+  {
+    "rating": 4,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d013a",
+    "address": "1075 Budapest, Kazinczy u. 14",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.063284,
+        47.496956
+      ]
+    },
+    "name": "Szimplakert",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "monday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1200"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "0500",
+          "isCloseOnNextDay": true,
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1000"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [
+      {
+        "rating": 4,
+        "ratedAt": "2018-12-11T12:47:11.706Z",
+        "device": "5c0fb1362476a200176d01ad"
+      }
+    ],
+    "createdAt": "2018-12-07T23:14:22.255Z",
+    "updatedAt": "2018-12-11T12:47:11.706Z",
+    "__v": 1
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d0137",
+    "address": "1084 Budapest, Bérkocsis u. 23",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.07304,
+        47.493807
+      ]
+    },
+    "name": "Macska",
+    "openHours": {
+      "friday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "monday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "isCloseOnNextDay": false,
+          "open": "1600"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.253Z",
+    "updatedAt": "2019-01-21T16:58:31.971Z",
+    "__v": 3
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d013b",
+    "address": "1111 Budapest, Bartók Béla út 34.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.051608,
+        47.479319
+      ]
+    },
+    "name": "Újbudai Közösségi Pont",
+    "openHours": {
+      "friday": [
+        {
+          "close": "1900",
+          "isCloseOnNextDay": false,
+          "open": "0730"
+        }
+      ],
+      "monday": [
+        {
+          "close": "1900",
+          "isCloseOnNextDay": false,
+          "open": "0730"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1900",
+          "isCloseOnNextDay": false,
+          "open": "0730"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1900",
+          "isCloseOnNextDay": false,
+          "open": "0730"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1900",
+          "isCloseOnNextDay": false,
+          "open": "0730"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.255Z",
+    "updatedAt": "2018-12-07T23:14:22.255Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0afece2476a200176d013c",
+    "address": "1073 Budapest, Kertész u. 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.069216,
+        47.498719
+      ]
+    },
+    "name": "Vittula",
+    "openHours": {
+      "friday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ],
+      "monday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "0400",
+          "isCloseOnNextDay": true,
+          "open": "2000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "0200",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "0300",
+          "isCloseOnNextDay": true,
+          "open": "1800"
+        }
+      ]
+    },
+    "source": "humbak-finder",
+    "ratings": [],
+    "createdAt": "2018-12-07T23:14:22.255Z",
+    "updatedAt": "2018-12-07T23:14:22.255Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe4b52476a200176d036b",
+    "address": "4400 Nyíregyháza, Szegfű u. 75",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.732231,
+        47.955031
+      ]
+    },
+    "name": "Nyír pláza",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:24:21.699Z",
+    "updatedAt": "2018-12-11T16:24:21.699Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d038f",
+    "address": "4400 Nyíregyháza, Dózsa György u. 3",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.717615,
+        47.958192
+      ]
+    },
+    "name": "Korzó bevásárló központ",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2100",
+          "open": "0900"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.677Z",
+    "updatedAt": "2018-12-11T16:40:32.677Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d0390",
+    "address": "4400 Nyíregyháza, Szabadság tér 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.718321,
+        47.956396
+      ]
+    },
+    "name": "Munkaügyi központ",
+    "openHours": {
+      "monday": [
+        {
+          "close": "1600",
+          "open": "0900"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1600",
+          "open": "0900"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1600",
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1600",
+          "open": "0900"
+        }
+      ],
+      "friday": [
+        {
+          "close": "1600",
+          "open": "0900"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.677Z",
+    "updatedAt": "2018-12-11T16:40:32.677Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d0391",
+    "address": "4400 Nyíregyháza, Pazonyi út",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.737505,
+        47.971918
+      ]
+    },
+    "name": "Tesco",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2000",
+          "open": "0700"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.678Z",
+    "updatedAt": "2018-12-11T16:40:32.678Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d0392",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.720975,
+        47.981225
+      ]
+    },
+    "name": "Erdei tornapálya",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.678Z",
+    "updatedAt": "2018-12-11T16:40:32.678Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d0393",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.715767,
+        47.956596
+      ]
+    },
+    "name": "Hősök tere",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.678Z",
+    "updatedAt": "2018-12-11T16:40:32.678Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0fe8802476a200176d0394",
+    "address": "4400 Nyíregyháza, Állomás tér 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.706108,
+        47.9464
+      ]
+    },
+    "name": "Vasútállomás",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T16:40:32.679Z",
+    "updatedAt": "2018-12-11T16:40:32.679Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0ff0c32476a200176d0422",
+    "address": "9700 Szombathely, Mártírok tere 1",
+    "description": "Agora Savaria Filmszínház. Hétvégén nyitva: vetítési időben.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.621212,
+        47.232805
+      ]
+    },
+    "name": "Savaria Mozi",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0800"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0800"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0800"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0800"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T17:15:47.258Z",
+    "updatedAt": "2018-12-11T17:15:47.258Z",
+    "__v": 0
+  },
+  {
+    "rating": 3,
+    "ratingCount": 1,
+    "deleted": false,
+    "_id": "5c0ff0c32476a200176d0421",
+    "address": "9700 Szombathely, Fő tér 45",
+    "description": "Fornetti mellett",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.62142,
+        47.230465
+      ]
+    },
+    "name": "Fő tér",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2000",
+          "open": "0600"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [
+      {
+        "rating": 3,
+        "ratedAt": "2019-01-22T10:53:06.531Z",
+        "device": "5c46f5a22476a200176d127f"
+      }
+    ],
+    "createdAt": "2018-12-11T17:15:47.257Z",
+    "updatedAt": "2019-01-22T10:53:06.532Z",
+    "__v": 9
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0ff0c32476a200176d0423",
+    "address": "9700 Szombathely, Kenderesi u.",
+    "description": "Deck Bistro & Bar alatt",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        16.59972,
+        47.235874
+      ]
+    },
+    "name": "Csónakázó tó",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T17:15:47.258Z",
+    "updatedAt": "2018-12-11T17:15:47.258Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0ff0c32476a200176d0424",
+    "address": "6800 Hódmezővásárhely, Kaszap u. 20",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.321178,
+        46.41045
+      ]
+    },
+    "name": "Interspár",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "1900",
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T17:15:47.258Z",
+    "updatedAt": "2018-12-11T17:15:47.258Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c0ff0c32476a200176d0425",
+    "address": "6800 Hódmezővásárhely, Hódi Pál u. 6",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.316729,
+        46.415913
+      ]
+    },
+    "name": "Szíriusz tér",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2000",
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T17:15:47.259Z",
+    "updatedAt": "2018-12-11T17:15:47.259Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c1027ac2476a200176d074b",
+    "address": "5553 Kondoros, Piac tér",
+    "description": "A piac térrel szemben",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.790895,
+        46.759971
+      ]
+    },
+    "name": "Piac tér",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:10:04.299Z",
+    "updatedAt": "2018-12-11T21:10:04.299Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c1027ac2476a200176d074c",
+    "address": "5600 Békéscsaba, Andrássy út 81",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.083278,
+        46.671194
+      ]
+    },
+    "name": "Kakas söröző",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:10:04.300Z",
+    "updatedAt": "2018-12-11T21:10:04.300Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c1027ac2476a200176d074d",
+    "address": "5600 Békéscsaba, Justh Gyula utca",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.09725,
+        46.681
+      ]
+    },
+    "name": "Nyilvános WC",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:10:04.300Z",
+    "updatedAt": "2018-12-11T21:10:04.300Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c1027ac2476a200176d074e",
+    "address": "5553 Kondoros, Hősök útja 23",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.795472,
+        46.758778
+      ]
+    },
+    "name": "Kondorosi csárda",
+    "description": "Wc-zni bemehetsz elv.",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "1000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2100",
+          "open": "1000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:10:04.300Z",
+    "updatedAt": "2018-12-11T21:10:04.300Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c102bc72476a200176d0771",
+    "address": "Ajka, Szabadság tér 13",
+    "description": "Kulcsot az információs pultnál lehet kérni",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.561438,
+        47.105188
+      ]
+    },
+    "name": "VMK",
+    "openHours": {
+      "monday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "friday": [
+        {
+          "close": "1900",
+          "open": "0900"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "1500",
+          "open": "0900"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:27:35.302Z",
+    "updatedAt": "2018-12-11T21:27:35.302Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c102bc72476a200176d0772",
+    "address": "Ajka, Szabadság tér 12",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.562313,
+        47.105937
+      ]
+    },
+    "name": "Városháza",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:27:35.303Z",
+    "updatedAt": "2018-12-11T21:27:35.303Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c102bc72476a200176d0773",
+    "address": "Ajka, Fő út 66",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.548688,
+        47.114062
+      ]
+    },
+    "name": "Tesco",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:27:35.303Z",
+    "updatedAt": "2018-12-11T21:27:35.303Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c102bc72476a200176d0774",
+    "address": "Ajka, Szabadság tér 8",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.56622,
+        47.106175
+      ]
+    },
+    "name": "Buszpályaudvar",
+    "description": "200 Ft / alkalom",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:27:35.303Z",
+    "updatedAt": "2018-12-11T21:27:35.303Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c102bc72476a200176d0775",
+    "address": "Ajka, Alkotmány utca 30",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.573562,
+        47.106688
+      ]
+    },
+    "name": "Vasútállomás",
+    "openHours": {
+      "monday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "friday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "1925",
+          "open": "0550"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2035",
+          "open": "0550"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2018-12-11T21:27:35.304Z",
+    "updatedAt": "2018-12-11T21:27:35.304Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d130b",
+    "address": "Budapest XIV ker., Őrs vezér tere",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.13644,
+        47.50039
+      ]
+    },
+    "name": "Cédrus Piac",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.077Z",
+    "updatedAt": "2019-01-22T22:13:43.077Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d130c",
+    "address": "Székesfehérvár, Budai u. 41",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.42488,
+        47.190828
+      ]
+    },
+    "name": "Interspar",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "1900",
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.077Z",
+    "updatedAt": "2019-01-22T22:13:43.077Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d130d",
+    "address": "Székesfehérvár, Béke tér",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.425223,
+        47.183608
+      ]
+    },
+    "name": "Vasúti büfé",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2100",
+          "open": "0700"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2100",
+          "open": "0700"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.077Z",
+    "updatedAt": "2019-01-22T22:13:43.077Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d130e",
+    "address": "Székesfehérvár, Várkörút 19",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.411853,
+        47.191774
+      ]
+    },
+    "name": "Nyilvános WC",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2200",
+          "open": "0700"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.077Z",
+    "updatedAt": "2019-01-22T22:13:43.077Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d130f",
+    "address": "Budapest, Klauzál tér",
+    "description": "Önkormányzati fenntartású, fenntartások nélkül.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.0632061,
+        47.4996143
+      ]
+    },
+    "name": "Nyilvános WC",
+    "openHours": {
+      "monday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "friday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "1800",
+          "open": "0800"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1310",
+    "address": "Kiskunfélegyháza, Eötvös utca 9",
+    "description": "Örülnek, ha köszönsz.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.8439,
+        46.712716
+      ]
+    },
+    "name": "Nádas Büfé",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2100",
+          "open": "0600"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1311",
+    "address": "Budapest, Tompa u. 14",
+    "description": "Örülnek, ha köszönsz.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.0703473,
+        47.4827313
+      ]
+    },
+    "name": "Tompa Angyal Bisztró",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "1600"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1312",
+    "address": "Budapest, Batthyány tér 5",
+    "description": "Vásárcsarnok emeletén",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.037982,
+        47.506445
+      ]
+    },
+    "name": "Nyilvános WC",
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1313",
+    "address": "Újpest Vasútállomás",
+    "description": "250 Ft, az automata nem ad visszajárót. FCSM üzemelteti.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.079826,
+        47.559247
+      ]
+    },
+    "name": "Nyilvános WC",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1314",
+    "address": "Budapest, Rákóczi út 1 (Astoria M)",
+    "description": "Mosdó kód: 4567#",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.061007,
+        47.494247
+      ]
+    },
+    "name": "Subway",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.078Z",
+    "updatedAt": "2019-01-22T22:13:43.078Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1315",
+    "address": "Budapest, Pillangó u. 15",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.117377,
+        47.505139
+      ]
+    },
+    "name": "Tesco",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "0000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.236Z",
+    "updatedAt": "2019-01-22T22:13:43.236Z",
+    "__v": 0
+  },
+  {
+    "rating": 0,
+    "ratingCount": 0,
+    "deleted": false,
+    "_id": "5c4795972476a200176d1316",
+    "address": "Pécs, Széchenyi tér 8",
+    "description": "",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.228066,
+        46.075937
+      ]
+    },
+    "name": "Duna Döner",
+    "openHours": {
+      "monday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "tuesday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "wednesday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "thursday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "friday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "saturday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ],
+      "sunday": [
+        {
+          "close": "2400",
+          "open": "1000"
+        }
+      ]
+    },
+    "source": "pisilohelyek",
+    "ratings": [],
+    "createdAt": "2019-01-22T22:13:43.236Z",
+    "updatedAt": "2019-01-22T22:13:43.236Z",
+    "__v": 0
+  }
+]
