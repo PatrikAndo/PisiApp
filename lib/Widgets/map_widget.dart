@@ -7,7 +7,7 @@ import '../Utilities/Place.dart';
 class MapWidget extends StatefulWidget {
   const MapWidget({
     Key key,
-    this.onPlaceSelected
+    this.onPlaceSelected,
   }) : super(key: key);
 
   final void Function(Place) onPlaceSelected;
@@ -57,18 +57,15 @@ class _MapWidgetState extends State<MapWidget> {
 
     return GoogleMap(
       onMapCreated: _onMapCreated,
-      options: GoogleMapOptions(
-        scrollGesturesEnabled: true,
-        tiltGesturesEnabled: false,
-        rotateGesturesEnabled: false,
-        myLocationEnabled: true,
-        compassEnabled: false,
-        mapType: MapType.normal,
-        trackCameraPosition: true,
-        zoomGesturesEnabled: true,
-        cameraPosition: _defaultPosition,
-
-      ),
+      initialCameraPosition: _defaultPosition,
+      scrollGesturesEnabled: true,
+      tiltGesturesEnabled: false,
+      rotateGesturesEnabled: false,
+      myLocationEnabled: true,
+      compassEnabled: false,
+      mapType: MapType.normal,
+      trackCameraPosition: true,
+      zoomGesturesEnabled: true,
     );
   }
 }

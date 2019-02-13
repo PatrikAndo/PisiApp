@@ -4,7 +4,7 @@ class SlideUpPanel extends StatefulWidget {
   const SlideUpPanel({
     Key key,
     this.header,
-    this.content
+    this.content,
   }) : super(key: key);
 
   final Widget header;
