@@ -5,12 +5,21 @@ import '../Utilities/DataLoader.dart';
 import '../Utilities/Place.dart';
 
 class MapWidget extends StatefulWidget {
+  const MapWidget({
+    Key key,
+    this.onPlaceSelected
+  }) : super(key: key);
+
+  final void Function(Place) onPlaceSelected;
+
   @override
   State createState() => new _MapWidgetState();
 }
 
 class _MapWidgetState extends State<MapWidget> {
   GoogleMapController mapController;
+  List<Place> places;
+  void Function(Place) onPlaceSelected;
 
   static final CameraPosition _defaultPosition = const CameraPosition(
     target: LatLng(47.180086, 19.503736),
@@ -21,11 +30,12 @@ class _MapWidgetState extends State<MapWidget> {
     mapController = controller;
 
     DataLoader.loadData().then((List<Place> places) {
+      this.places = places;
+
       places.forEach((p) {
         mapController.addMarker(
           MarkerOptions(
             position: LatLng(p.Lattitude, p.Longitude),
-            infoWindowText: InfoWindowText(p.Title, p.Description),
             icon: BitmapDescriptor.defaultMarker,
           ),
         );
@@ -33,12 +43,18 @@ class _MapWidgetState extends State<MapWidget> {
     });
 
     mapController.onMarkerTapped.add((Marker m) {
-      print('hello id:' + m.id);
+      int placeId = int.tryParse(m.id.substring(1));
+      if (placeId != null) {
+        Place selectedPlace = places[placeId];
+        onPlaceSelected(selectedPlace);
+      }
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    this.onPlaceSelected = widget.onPlaceSelected;
+
     return GoogleMap(
       onMapCreated: _onMapCreated,
       options: GoogleMapOptions(
@@ -51,6 +67,7 @@ class _MapWidgetState extends State<MapWidget> {
         trackCameraPosition: true,
         zoomGesturesEnabled: true,
         cameraPosition: _defaultPosition,
+
       ),
     );
   }

@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:smooth_star_rating/smooth_star_rating.dart';
 
 class SlideUpPanel extends StatefulWidget {
-  String _description;
-  String _title;
-  int _stars;
+  const SlideUpPanel({
+    Key key,
+    this.header,
+    this.content
+  }) : super(key: key);
 
-  SlideUpPanel(this._title, this._description, this._stars);
+  final Widget header;
+  final Widget content;
 
   @override
-  State createState() => new _SlideUpPanelState(_title, _description, _stars);
+  State createState() => new _SlideUpPanelState();
 }
 
 class _SlideUpPanelState extends State<SlideUpPanel> {
@@ -19,17 +21,6 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
   double _midPoint;
   double _heightOpen = 300;
   double _heightClosed = 100;
-
-  //Passing data with constructor
-  String _description;
-  String _title;
-  int _stars;
-
-  //Staring widget
-  double _inputRating = 0.0;
-
-  //Ctor
-  _SlideUpPanelState(this._title, this._description, this._stars);
 
   //Methods
   @override
@@ -72,58 +63,7 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
                   bottom: BorderSide(width: 1.0, color: Colors.grey),
                 ),
               ),
-              child: Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: <Widget>[
-                        Expanded(
-                          child: Padding(
-                            padding: EdgeInsets.only(top: 20.0, left: 20.0),
-                            child: Text(
-                              _title,
-                              textAlign: TextAlign.left,
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 15.0,
-                              ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: EdgeInsets.only(top: 15.0, left: 20.0),
-                            child: Text(
-                              "No rate",
-                              textAlign: TextAlign.left,
-                              style: TextStyle(fontSize: 15.0),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Expanded(
-                    child: Column(
-                      children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.only(top: 10),
-                          child: Icon(Icons.map, size: 40),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(top: 5.0),
-                          child: Text(
-                            "Route",
-                            textAlign: TextAlign.right,
-                            style: TextStyle(fontSize: 15.0),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
+              child: widget.header,
             ),
             onVerticalDragEnd: (details) {
               setPanelState(_height >= _midPoint);
@@ -148,77 +88,7 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
               maxHeight: _height - _heightClosed,
             ),
             child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsets.all(10.0),
-                          child: Text(
-                            this._description,
-                            textAlign: TextAlign.start,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Container(
-                    color: Color.fromRGBO(240, 240, 245, 1),
-                    child: Column(
-                      children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.only(top: 15.0, bottom: 5.0),
-                          child: Text(
-                            "Rate this place",
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(bottom: 20.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              SmoothStarRating(
-                                allowHalfRating: false,
-                                onRatingChanged: (v) {
-                                  _inputRating = v;
-                                  setState(() {});
-                                },
-                                starCount: 5,
-                                rating: _inputRating,
-                                size: 40.0,
-                                color: Colors.green,
-                                borderColor: Colors.green,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.symmetric(vertical: 10.0),
-                        child: Text(
-                          "Opening Hours",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 15.0),
-                        ),
-                      ),
-                      Text("Monday: 00-24"),
-                      Text("Tuesday: 00-24"),
-                      Text("Wednesday: 00-24"),
-                      Text("Thursday: 00-24"),
-                      Text("Friday: 00-24"),
-                      Text("Saturday: 00-24"),
-                      Text("Sunday: 00-24"),
-                    ],
-                  ), // Place for opening hours
-                ],
-              ),
+              child: widget.content,
             ),
           ),
         ],
