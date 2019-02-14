@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class SlideUpPanel extends StatefulWidget {
   const SlideUpPanel({
     Key key,
+    this.showPanel,
     this.header,
     this.content,
   }) : super(key: key);
 
+  final bool showPanel;
   final Widget header;
   final Widget content;
 
@@ -39,6 +41,10 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
 
   @override
   Widget build(BuildContext context) {
+    if (widget.showPanel == false) {
+      return new Container();
+    }
+
     double screenHeight = MediaQuery.of(context).size.height;
 
     if (MediaQuery.of(context).orientation == Orientation.portrait) {

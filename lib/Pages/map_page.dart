@@ -13,6 +13,8 @@ class MapPage extends StatefulWidget {
 }
 
 class MapPageState extends State<MapPage> {
+  Place selectedPlace;
+  bool showPanel = false;
   String _title;
   String _description;
   double _rating;
@@ -24,14 +26,25 @@ class MapPageState extends State<MapPage> {
       children: <Widget>[
         new MapWidget(
           onPlaceSelected: (Place p) {
-            setState(() {
-              _title = p.Title;
-              _description = p.Description;
-              _rating = p.Rating;
-            });
+            selectedPlace = p;
+
+            if (selectedPlace != null) {
+              setState(() {
+                _title = p.Title;
+                _description = p.Description;
+                _rating = p.Rating;
+                showPanel = true;
+              });
+            }
+            else {
+              setState(() {
+                showPanel = false;
+              });
+            }
           },
         ),
         new SlideUpPanel(
+          showPanel: showPanel,
           header: PlaceHeader(
             title: _title,
           ),

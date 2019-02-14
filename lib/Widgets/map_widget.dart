@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -52,12 +54,40 @@ class _MapWidgetState extends State<MapWidget> {
   }
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     this.onPlaceSelected = widget.onPlaceSelected;
 
+    TapGestureRecognizer tapGestureRecognizer = new TapGestureRecognizer();
+
+    Set<Factory<OneSequenceGestureRecognizer>> gestureRecognizers =
+        <Factory<OneSequenceGestureRecognizer>>[
+      new Factory<OneSequenceGestureRecognizer>(
+        () => tapGestureRecognizer,
+      ),
+    ].toSet();
+
+    /*
+        GestureRecognizerFactoryWithHandlers<TapGestureRecognizer>(
+              () => TapGestureRecognizer(),
+              (TapGestureRecognizer instance) {
+            instance
+              ..onTapDown = (TapDownDetails details) { setState(() { _last = 'down'; }); }
+              ..onTapUp = (TapUpDetails details) { setState(() { _last = 'up'; }); }
+              ..onTap = () { setState(() { _last = 'tap'; }); }
+              ..onTapCancel = () { setState(() { _last = 'cancel'; }); };
+          },
+        ),
+     */
+
     return GoogleMap(
-      onMapCreated: _onMapCreated,
       initialCameraPosition: _defaultPosition,
+      onMapCreated: _onMapCreated,
+      gestureRecognizers: gestureRecognizers,
       scrollGesturesEnabled: true,
       tiltGesturesEnabled: false,
       rotateGesturesEnabled: false,
