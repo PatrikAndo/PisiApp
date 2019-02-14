@@ -50,7 +50,7 @@ class _PlaceHeaderState extends State<PlaceHeader> {
                   padding: EdgeInsets.only(top: 15.0, left: 20.0),
                   child: _rating != 0
                       ? SmoothStarRating(
-                          allowHalfRating: true,
+                          allowHalfRating: false,
                           starCount: 5,
                           rating: _rating ?? 0,
                           size: 20.0,
