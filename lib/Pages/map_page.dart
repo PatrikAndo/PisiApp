@@ -16,6 +16,7 @@ class MapPageState extends State<MapPage> {
   String _title;
   String _description;
   double _rating;
+  double _collectiveRate;
 
   @override
   Widget build(BuildContext context) {
@@ -27,13 +28,15 @@ class MapPageState extends State<MapPage> {
             setState(() {
               _title = p.Title;
               _description = p.Description;
-              _rating = p.Rating;
+              _rating = p.Rating; // Has to be changed to the user's own rate in the panel
+              //_collectiveRate = p.Rating;
             });
           },
         ),
         new SlideUpPanel(
           header: PlaceHeader(
             title: _title,
+            rating: _rating,
           ),
           content: PlaceDetails(
             description: _description,

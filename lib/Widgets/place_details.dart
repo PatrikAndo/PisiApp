@@ -13,12 +13,24 @@ class PlaceDetails extends StatefulWidget {
   final double inputRating;
 
   @override
-  State createState() => new _PlaceDetailsState();
+  State createState() {
+    return new _PlaceDetailsState();
+  }
 }
 
 class _PlaceDetailsState extends State<PlaceDetails> {
+  double _rating;
+
+  @override
+  void didUpdateWidget(PlaceDetails oldWidget) {
+    // TODO: implement didUpdateWidget
+    _rating = widget.inputRating;
+    super.didUpdateWidget(oldWidget);
+  }
+
   @override
   Widget build(BuildContext context) {
+    //_rating = widget.inputRating;
     return Column(
       children: <Widget>[
         Row(
@@ -53,11 +65,11 @@ class _PlaceDetailsState extends State<PlaceDetails> {
                     SmoothStarRating(
                       allowHalfRating: false,
                       onRatingChanged: (v) {
-                        //widget.inputRating = v;
-                        //setState(() {});
+                        _rating = v;
+                        setState(() {});
                       },
                       starCount: 5,
-                      rating: widget.inputRating ?? 0,
+                      rating: _rating ?? 0,
                       size: 40.0,
                       color: Colors.green,
                       borderColor: Colors.green,

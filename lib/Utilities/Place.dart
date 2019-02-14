@@ -3,6 +3,7 @@ class Place {
   String _title;
   String _description;
   double _rating;
+  //double _collectiveRate;
   double _lattitude;
   double _longitude;
 
@@ -27,5 +28,9 @@ class Place {
   double get Longitude{
     return _longitude;
   }
-
+/*
+  double get CollectiveRate{
+    return _collectiveRate;
+  }
+*/
 }
