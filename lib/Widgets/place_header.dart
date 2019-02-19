@@ -17,7 +17,7 @@ class PlaceHeader extends StatefulWidget {
 }
 
 class _PlaceHeaderState extends State<PlaceHeader> {
-  double _rating;
+  double _rating = 0;
 
   @override
   void didUpdateWidget(PlaceHeader oldWidget) {
