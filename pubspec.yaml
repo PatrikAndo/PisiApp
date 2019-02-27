@@ -14,7 +14,11 @@ environment:
 
 dependencies:
   smooth_star_rating: 1.0.1
-  google_maps_flutter: 0.2.0+2
+  google_maps_flutter:
+    git:
+      url: git://github.com/boti7/plugins/
+      path: packages/google_maps_flutter
+      ref: master
   flutter:
     sdk: flutter
 
