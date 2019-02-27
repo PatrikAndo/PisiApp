@@ -55,13 +55,13 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
 
     _midPoint = (_heightOpen + _heightClosed) / 2;
 
-    return new Container(
+    return Container(
       height: _height,
       color: Colors.white,
-      child: new Column(
+      child: Column(
         children: <Widget>[
-          new GestureDetector(
-            child: new Container(
+          GestureDetector(
+            child: Container(
               height: _heightClosed,
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -72,7 +72,16 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
               child: widget.header,
             ),
             onVerticalDragEnd: (details) {
-              setPanelState(_height >= _midPoint);
+              double velocity = details.primaryVelocity;
+              if (velocity < -200) {
+                setPanelState(true);
+              }
+              else if (velocity > 200) {
+                setPanelState(false);
+              }
+              else {
+                setPanelState(_height >= _midPoint);
+              }
             },
             onVerticalDragUpdate: (details) {
               double newHeight = _height - details.delta.dy;
