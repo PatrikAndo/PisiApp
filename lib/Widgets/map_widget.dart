@@ -36,6 +36,7 @@ class _MapWidgetState extends State<MapWidget> {
       places.forEach((p) {
         mapController.addMarker(
           MarkerOptions(
+            consumeTapEvents: true,
             position: LatLng(p.Lattitude, p.Longitude),
             icon: BitmapDescriptor.defaultMarker,
           ),
@@ -68,14 +69,11 @@ class _MapWidgetState extends State<MapWidget> {
     return GoogleMap(
       initialCameraPosition: _defaultPosition,
       onMapCreated: _onMapCreated,
-      scrollGesturesEnabled: true,
-      tiltGesturesEnabled: false,
-      rotateGesturesEnabled: false,
-      myLocationEnabled: true,
       compassEnabled: false,
-      mapType: MapType.normal,
-      trackCameraPosition: true,
-      zoomGesturesEnabled: true,
+      rotateGesturesEnabled: false,
+      tiltGesturesEnabled: false,
+      trackCameraPosition: false,
+      myLocationEnabled: true,
     );
   }
 }

@@ -29,8 +29,7 @@ class MapPageState extends State<MapPage> {
         _rating = p.Rating;
         _showPanel = true;
       });
-    }
-    else {
+    } else {
       setState(() {
         _showPanel = false;
       });
@@ -39,23 +38,33 @@ class MapPageState extends State<MapPage> {
 
   @override
   Widget build(BuildContext context) {
-    return new Stack(
-      alignment: AlignmentDirectional.bottomCenter,
-      children: <Widget>[
-        new MapWidget(
-          onPlaceSelected: _onPlaceSelected,
-        ),
-        new SlideUpPanel(
-          showPanel: _showPanel,
-          header: PlaceHeader(
-            title: _title,
+    return WillPopScope(
+      child: Stack(
+        alignment: AlignmentDirectional.bottomCenter,
+        children: <Widget>[
+          MapWidget(
+            onPlaceSelected: _onPlaceSelected,
           ),
-          content: PlaceDetails(
-            description: _description,
-            inputRating: _rating,
+          SlideUpPanel(
+            showPanel: _showPanel,
+            header: PlaceHeader(
+              title: _title,
+            ),
+            content: PlaceDetails(
+              description: _description,
+              inputRating: _rating,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
+      onWillPop: () async {
+        if (_selectedPlace != null) {
+          _onPlaceSelected(null);
+          return false;
+        }
+
+        return true;
+      },
     );
   }
 }
