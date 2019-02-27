@@ -40,6 +40,12 @@ class _SlideUpPanelState extends State<SlideUpPanel> {
   }
 
   @override
+  void didUpdateWidget(SlideUpPanel oldWidget) {
+    setPanelState(false);
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
   Widget build(BuildContext context) {
     if (widget.showPanel == false) {
       return new Container();
