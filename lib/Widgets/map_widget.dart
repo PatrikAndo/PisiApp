@@ -70,10 +70,11 @@ class _MapWidgetState extends State<MapWidget> {
       initialCameraPosition: _defaultPosition,
       onMapCreated: _onMapCreated,
       compassEnabled: false,
+      mapToolbarEnabled: false,
+      myLocationEnabled: true,
       rotateGesturesEnabled: false,
       tiltGesturesEnabled: false,
       trackCameraPosition: false,
-      myLocationEnabled: true,
     );
   }
 }
