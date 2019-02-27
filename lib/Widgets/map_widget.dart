@@ -62,40 +62,22 @@ class _MapWidgetState extends State<MapWidget> {
   Widget build(BuildContext context) {
     this.onPlaceSelected = widget.onPlaceSelected;
 
-    TapGestureRecognizer tapGestureRecognizer = new TapGestureRecognizer();
-
-    Set<Factory<OneSequenceGestureRecognizer>> gestureRecognizers =
-        <Factory<OneSequenceGestureRecognizer>>[
-      new Factory<OneSequenceGestureRecognizer>(
-        () => tapGestureRecognizer,
+    return new GestureDetector(
+      onTapDown: (TapDownDetails d) {
+        onPlaceSelected(null);
+      },
+      child: GoogleMap(
+        initialCameraPosition: _defaultPosition,
+        onMapCreated: _onMapCreated,
+        scrollGesturesEnabled: true,
+        tiltGesturesEnabled: false,
+        rotateGesturesEnabled: false,
+        myLocationEnabled: true,
+        compassEnabled: false,
+        mapType: MapType.normal,
+        trackCameraPosition: true,
+        zoomGesturesEnabled: true,
       ),
-    ].toSet();
-
-    /*
-        GestureRecognizerFactoryWithHandlers<TapGestureRecognizer>(
-              () => TapGestureRecognizer(),
-              (TapGestureRecognizer instance) {
-            instance
-              ..onTapDown = (TapDownDetails details) { setState(() { _last = 'down'; }); }
-              ..onTapUp = (TapUpDetails details) { setState(() { _last = 'up'; }); }
-              ..onTap = () { setState(() { _last = 'tap'; }); }
-              ..onTapCancel = () { setState(() { _last = 'cancel'; }); };
-          },
-        ),
-     */
-
-    return GoogleMap(
-      initialCameraPosition: _defaultPosition,
-      onMapCreated: _onMapCreated,
-      gestureRecognizers: gestureRecognizers,
-      scrollGesturesEnabled: true,
-      tiltGesturesEnabled: false,
-      rotateGesturesEnabled: false,
-      myLocationEnabled: true,
-      compassEnabled: false,
-      mapType: MapType.normal,
-      trackCameraPosition: true,
-      zoomGesturesEnabled: true,
     );
   }
 }
