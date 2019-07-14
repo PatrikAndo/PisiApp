@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -35,6 +36,7 @@ class _MapWidgetState extends State<MapWidget> {
       places.forEach((p) {
         mapController.addMarker(
           MarkerOptions(
+            consumeTapEvents: true,
             position: LatLng(p.Lattitude, p.Longitude),
             icon: BitmapDescriptor.defaultMarker,
           ),
@@ -49,6 +51,15 @@ class _MapWidgetState extends State<MapWidget> {
         onPlaceSelected(selectedPlace);
       }
     });
+
+    mapController.onMapTapped.add((LatLng latLng) {
+      onPlaceSelected(null);
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
   }
 
   @override
@@ -56,16 +67,14 @@ class _MapWidgetState extends State<MapWidget> {
     this.onPlaceSelected = widget.onPlaceSelected;
 
     return GoogleMap(
-      onMapCreated: _onMapCreated,
       initialCameraPosition: _defaultPosition,
-      scrollGesturesEnabled: true,
-      tiltGesturesEnabled: false,
-      rotateGesturesEnabled: false,
-      myLocationEnabled: true,
+      onMapCreated: _onMapCreated,
       compassEnabled: false,
-      mapType: MapType.normal,
-      trackCameraPosition: true,
-      zoomGesturesEnabled: true,
+      mapToolbarEnabled: false,
+      myLocationEnabled: true,
+      rotateGesturesEnabled: false,
+      tiltGesturesEnabled: false,
+      trackCameraPosition: false,
     );
   }
 }

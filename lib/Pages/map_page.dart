@@ -13,37 +13,61 @@ class MapPage extends StatefulWidget {
 }
 
 class MapPageState extends State<MapPage> {
+  Place _selectedPlace;
+  bool _showPanel = false;
   String _title;
   String _description;
   double _rating;
   double _collectiveRate;
 
+  void _onPlaceSelected(Place p) {
+    _selectedPlace = p;
+
+    if (_selectedPlace != null) {
+      setState(() {
+        _title = p.Title;
+        _description = p.Description;
+        _rating = p.Rating; // Has to be changed to the user's own rate in the panel
+        //_collectiveRate = p.Rating;
+        _showPanel = true;
+      });
+    } else {
+      setState(() {
+        _showPanel = false;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    return new Stack(
-      alignment: AlignmentDirectional.bottomCenter,
-      children: <Widget>[
-        new MapWidget(
-          onPlaceSelected: (Place p) {
-            setState(() {
-              _title = p.Title;
-              _description = p.Description;
-              _rating = p.Rating; // Has to be changed to the user's own rate in the panel
-              //_collectiveRate = p.Rating;
-            });
-          },
-        ),
-        new SlideUpPanel(
-          header: PlaceHeader(
-            title: _title,
-            rating: _rating,
+    return WillPopScope(
+      child: Stack(
+        alignment: AlignmentDirectional.bottomCenter,
+        children: <Widget>[
+          MapWidget(
+            onPlaceSelected: _onPlaceSelected,
           ),
-          content: PlaceDetails(
-            description: _description,
-            inputRating: _rating,
+          SlideUpPanel(
+            showPanel: _showPanel,
+            header: PlaceHeader(
+              title: _title,
+              rating: _rating,
+            ),
+            content: PlaceDetails(
+              description: _description,
+              inputRating: _rating,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
+      onWillPop: () async {
+        if (_selectedPlace != null) {
+          _onPlaceSelected(null);
+          return false;
+        }
+
+        return true;
+      },
     );
   }
 }
