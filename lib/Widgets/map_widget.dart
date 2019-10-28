@@ -35,7 +35,8 @@ class _MapWidgetState extends State<MapWidget> {
   );
 
   Future<void> _updateMarkers() async {
-    if (_cameraPosition == null) return;
+    if (_cameraPosition == null)
+      _cameraPosition = _defaultPosition;
 
     GoogleMapController mapController = await _mapController.future;
     LatLngBounds visibleRegion = await mapController.getVisibleRegion();
