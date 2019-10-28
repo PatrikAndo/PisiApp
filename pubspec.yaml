@@ -13,6 +13,7 @@ environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
+  fluster: 1.1.2
   smooth_star_rating: 1.0.1
   google_maps_flutter: 0.5.21+8
 # To use git version: remove version number and uncomment next 4 lines

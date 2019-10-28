@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../Utilities/DataLoader.dart';
 import '../Utilities/Place.dart';
+import '../Utilities/Clustering.dart';
 
 class MapWidget extends StatefulWidget {
   const MapWidget({
@@ -24,12 +25,28 @@ class _MapWidgetState extends State<MapWidget> {
   MarkerId selectedMarker;
   int _markerIdCounter = 0;
   List<Place> places;
+  List<Marker> clusters = [];
   void Function(Place) onPlaceSelected;
+  CameraPosition _cameraPosition;
 
   static final CameraPosition _defaultPosition = const CameraPosition(
     target: LatLng(47.180086, 19.503736),
     zoom: 6.5,
   );
+
+  Future<void> _updateMarkers() async {
+    if (_cameraPosition == null) return;
+
+    GoogleMapController mapController = await _mapController.future;
+    LatLngBounds visibleRegion = await mapController.getVisibleRegion();
+    int zoom = _cameraPosition.zoom.floor();
+
+    List<Marker> tmpClusters = Clustering.cluster(markers, visibleRegion, zoom);
+
+    setState(() {
+      clusters = tmpClusters;
+    });
+  }
 
   void _onMapCreated(GoogleMapController controller) {
     _mapController.complete(controller);
@@ -38,7 +55,7 @@ class _MapWidgetState extends State<MapWidget> {
       this.places = places;
 
       places.forEach((p) {
-        if (_markerIdCounter > 10) return;
+        if (_markerIdCounter > 500) return;
 
         final MarkerId markerId = MarkerId('marker_$_markerIdCounter');
         _markerIdCounter++;
@@ -69,6 +86,8 @@ class _MapWidgetState extends State<MapWidget> {
           markers[markerId] = marker;
         });
       });
+
+      _updateMarkers();
     });
   }
 
@@ -104,7 +123,9 @@ class _MapWidgetState extends State<MapWidget> {
       myLocationEnabled: true,
       rotateGesturesEnabled: false,
       tiltGesturesEnabled: false,
-      markers: Set<Marker>.of(markers.values),
+      markers: Set<Marker>.of(clusters),
+      onCameraMove: (CameraPosition cp) => _cameraPosition = cp,
+      onCameraIdle: _updateMarkers,
     );
   }
 }
